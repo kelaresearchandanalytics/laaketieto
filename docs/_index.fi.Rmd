@@ -13,30 +13,83 @@ plot(cars)
 
 
 <div style = "padding: 30px"></div>
-<h2 id = "sovellukset" class = "yellow-line-3">Verkkosovellukset</h2>
+
+<h2 id = "verkkosovellukset" class = "yellow-line-3">Verkkosovellukset</h2>
+
 <div class="row">
-<div class="col-sm-6">
-<div class="card" style="width: 90%;">
-<a href="https://kelaresearchandanalytics.shinyapps.io/korona_atc_app/" title="Avaa sovellus"><img class="card-img-top" src="tita_app003.PNG" width="100%"></a>
-<!--img class="card-img-top" src="tita_app003.PNG" alt="Card image cap"-->
-<div class="card-body">
-<a class = "laake-link" href="https://kelaresearchandanalytics.shinyapps.io/korona_atc_app/" title="Avaa sovellus"><h5 class="card-title">Reseptilääkkeiden ostot ATC-luokittain<i class="bi-chevron-right"></i></h5></a>
-<p class="card-text">Voit verrata sairausvakuutuksesta korvattavien reseptilääkkeiden kustannuksia, ostomääriä ja ostajien määriä viikkotasolla vuosien 2019-2021 välillä ATC-luokituksen tasoilla 1-5..</p>
-</div>
-</div>
-</div>
-<div class="col-sm-6">
-<div class="card" style="width: 90%;">
-<a class = "laake-link" href="https://ropengov.shinyapps.io/tilastot_kartalle/" title="Avaa sovellus uuteen välilehteen"><img class="card-img-top" src="tita_app005.PNG" width="100%"></a>
-<div class="card-body">
-<a class = "laake-link" href="https://kelaresearchandanalytics.shinyapps.io/korona_atc_app/" title="Avaa sovellus"><h5 class="card-title">Avo- ja laitoshoidon lääkekustannusten kasvu ja lasku lääkeaineittain<i class="bi-chevron-right"></i></h5></a>
-<p class="card-text">Sovelluksen avulla voit verrata avo- ja laitoshoidossa käytettävistä lääkkeistä niitä, joiden lääkekustannukset ovat kasvaneet tai laskeneet eniten koko maassa ja sairaanhoitopiireittäin.</p>
-</div>
-</div>
+ <div class="col-sm-6">
+  <div class="card" style="width: 90%;">
+  <a href="https://kelaresearchandanalytics.shinyapps.io/korona_atc_app/" title="Avaa sovellus"><img  class="card-img-top" src="img_app01.PNG" width="100%"></a>
+  <div class="card-body">
+ <a class = "laake-link" href="https://kelaresearchandanalytics.shinyapps.io/korona_atc_app/" title="Avaa sovellus"><h5 class="card-title">Reseptilääkkeiden ostot ATC-luokittain<i class="bi-chevron-right"></i></h5></a>
+  <p class="card-text">Voit verrata sairausvakuutuksesta korvattavien reseptilääkkeiden kustannuksia, ostomääriä ja ostajien määriä viikkotasolla vuosien 2019-2021 välillä ATC-luokituksen tasoilla 1-5..</p>
+  </div>
+  </div>
+ </div>
+ <div class="col-sm-6">
+  <div class="card" style="width: 90%;">
+  <a class = "laake-link" href="https://ropengov.shinyapps.io/tilastot_kartalle/" title="Avaa sovellus uuteen välilehteen"><img class="card-img-top" src="img_app02.PNG" width="100%"></a>
+  <div class="card-body">
+  <a class = "laake-link" href="https://kelaresearchandanalytics.shinyapps.io/korona_atc_app/" title="Avaa sovellus"><h5 class="card-title">Avo- ja laitoshoidon lääkekustannusten kasvu ja lasku lääkeaineittain<i class="bi-chevron-right"></i></h5></a>
+  <p class="card-text">Sovelluksen avulla voit verrata avo- ja laitoshoidossa käytettävistä lääkkeistä niitä, joiden lääkekustannukset ovat kasvaneet tai laskeneet eniten koko maassa ja sairaanhoitopiireittäin.</p>
+  </div>
+ </div>
 </div>
 </div>
 
-<div style = "padding: 50px"></div>
+<div style = "padding: 20px"></div>
+
+
+<h2 class = "yellow-line-3" id = "#raportit-ja-julkaisut">Raportit ja julkaisut</h2>
+
+```{r, results="asis", echo = FALSE, message = FALSE, warning=FALSE}
+library(glue)
+library(dplyr)
+feed_dat_kela <- readRDS("../local_data/feed_dat_kela.RDS") %>% 
+  select(date,item_title,item_description,item_link,item_authors)
+feed_dat_fimea <- readRDS("../local_data/feed_dat_fimea.RDS") %>% 
+  select(date,item_title,item_description,item_link,item_authors)
+
+feed_dat_kela %>% 
+  arrange(desc(date)) %>% 
+  slice(1:8) %>% 
+  mutate(html = glue('
+  <dl class="row">
+  <dd class="col-sm-12"><div class = "yellow-line">{date}</div>
+  <a class = "laake-link" href="{item_link}">{item_title}<i class="bi-chevron-right"></i></a> 
+  
+  <!--strong>{item_authors}</strong><br/-->
+  </dd></dl>')) %>% 
+  pull(html) -> feed_lines_kela
+
+feed_dat_fimea %>% 
+  arrange(desc(date)) %>% 
+  slice(1:8) %>% 
+  mutate(html = glue('
+  <dl class="row">
+  <dd class="col-sm-12"><div class = "yellow-line">{date}</div>
+  <a class = "laake-link" href="{item_link}">{item_title}<i class="bi-chevron-right"></i></a>
+  <!--strong>{item_authors}</strong><br/-->
+  <!--i>{item_description}<a href="{item_link}"> Lue lisää</a></i-->
+  </dd></dl>')) %>% 
+  pull(html) -> feed_lines_fimea
+
+feed_lines <- c('<dl class="row"><div class = "col-sm-6"><img src = "layout_set_logo.png" height  = "30px"><div style = "padding-top: 10px;"></div><h5>Uutta Kelan tutkimusblogissa</h5>',
+                feed_lines_kela,
+                '<!--a href = "https://tutkimusblogi.kela.fi/avainsanat/laakkeet">Lue lisää Kelan tutkimusblogista</a-->
+                </div>',
+                '<div class = "col-sm-6"><img src = "https://www.fimea.fi/o/fimea-theme/images/logo/fimea-logo.svg" height  = "30px"><div style = "padding-top: 10px;"></div><h5>Ajankohtaista Fimeasta</h5>',
+                feed_lines_fimea,
+                '<!--a href = "https://www.fimea.fi/tietoa_fimeasta/ajankohtaista/uutiset">Lue lisää Fimean kotisivuilta</a-->
+                </div>',
+                '</dl>
+<hr>'
+                )
+
+cat(feed_lines)
+```
+
+
 
 <div style = "padding: 30px"></div>
 

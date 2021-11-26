@@ -9,73 +9,126 @@
     <lastBuildDate>Mon, 09 Nov 2020 19:55:24 +0200</lastBuildDate><atom:link href="https://laaketieto.kela.fi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reportaasi lääkkeiden käytöstä</title>
-      <link>https://laaketieto.kela.fi/2021/11/drugs/</link>
+      <link>https://laaketieto.kela.fi/2021/11/25/drugs/</link>
       <pubDate>Thu, 25 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://laaketieto.kela.fi/2021/11/drugs/</guid>
+      <guid>https://laaketieto.kela.fi/2021/11/25/drugs/</guid>
       <description>
-&lt;script src=&#34;https://laaketieto.kela.fi/2021/11/drugs/index.fi_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://laaketieto.kela.fi/2021/11/25/drugs/index.fi_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(cars)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://laaketieto.kela.fi/2021/11/drugs/index.fi_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;muni &amp;lt;- geofi::get_municipalities()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Requesting response from: http://geo.stat.fi/geoserver/wfs?service=WFS&amp;amp;version=1.0.0&amp;amp;request=getFeature&amp;amp;typename=tilastointialueet%3Akunta4500k_2021&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: Coercing CRS to epsg:3067 (ETRS89 / TM35FIN)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## geofi R package: tools for open GIS data for Finland.
+## Part of rOpenGov &amp;lt;ropengov.org&amp;gt;.&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Data is licensed under: Attribution 4.0 International (CC BY 4.0)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(sf)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Linking to GEOS 3.9.1, GDAL 3.3.2, PROJ 7.2.1&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(muni, max.plot = 1)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://laaketieto.kela.fi/2021/11/25/drugs/index.fi_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;768&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Hello R Markdown</title>
-      <link>https://laaketieto.kela.fi/2020/12/hello-r-markdown/</link>
-      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      <title>Reportaasi lääkkeiden käytöstä</title>
+      <link>https://laaketieto.kela.fi/2021/11/18/drugs/</link>
+      <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://laaketieto.kela.fi/2020/12/hello-r-markdown/</guid>
+      <guid>https://laaketieto.kela.fi/2021/11/18/drugs/</guid>
       <description>
-&lt;script src=&#34;https://laaketieto.kela.fi/2020/12/hello-r-markdown/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://laaketieto.kela.fi/2021/11/18/drugs/index.fi_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
-&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;R Markdown&lt;/h1&gt;
-&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)
-##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00
-fit &amp;lt;- lm(dist ~ speed, data = cars)
-fit
-## 
-## Call:
-## lm(formula = dist ~ speed, data = cars)
-## 
-## Coefficients:
-## (Intercept)        speed  
-##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Including Plots&lt;/h1&gt;
-&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
-pie(
-  c(280, 60, 20),
-  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
-  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
-  init.angle = -50, border = NA
-)&lt;/code&gt;&lt;/pre&gt;
-&lt;div class=&#34;figure&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;https://laaketieto.kela.fi/2020/12/hello-r-markdown/index_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;
-Figure 1: A fancy pie chart.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;muni &amp;lt;- geofi::get_municipalities()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Requesting response from: http://geo.stat.fi/geoserver/wfs?service=WFS&amp;amp;version=1.0.0&amp;amp;request=getFeature&amp;amp;typename=tilastointialueet%3Akunta4500k_2021&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: Coercing CRS to epsg:3067 (ETRS89 / TM35FIN)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## geofi R package: tools for open GIS data for Finland.
+## Part of rOpenGov &amp;lt;ropengov.org&amp;gt;.&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Data is licensed under: Attribution 4.0 International (CC BY 4.0)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(sf)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Linking to GEOS 3.9.1, GDAL 3.3.2, PROJ 7.2.1&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(muni, max.plot = 1)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://laaketieto.kela.fi/2021/11/18/drugs/index.fi_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;768&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Käyttöesimerkit datan itsenäiskäyttöön R-kielellä</title>
+      <title>Reportaasi lääkkeiden käytöstä</title>
+      <link>https://laaketieto.kela.fi/2021/11/11/drugs/</link>
+      <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://laaketieto.kela.fi/2021/11/11/drugs/</guid>
+      <description>
+&lt;script src=&#34;https://laaketieto.kela.fi/2021/11/11/drugs/index.fi_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;muni &amp;lt;- geofi::get_municipalities()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Requesting response from: http://geo.stat.fi/geoserver/wfs?service=WFS&amp;amp;version=1.0.0&amp;amp;request=getFeature&amp;amp;typename=tilastointialueet%3Akunta4500k_2021&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: Coercing CRS to epsg:3067 (ETRS89 / TM35FIN)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## geofi R package: tools for open GIS data for Finland.
+## Part of rOpenGov &amp;lt;ropengov.org&amp;gt;.&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Data is licensed under: Attribution 4.0 International (CC BY 4.0)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(sf)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Linking to GEOS 3.9.1, GDAL 3.3.2, PROJ 7.2.1&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(muni, max.plot = 1)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://laaketieto.kela.fi/2021/11/11/drugs/index.fi_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;768&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reportaasi lääkkeiden käytöstä</title>
+      <link>https://laaketieto.kela.fi/2021/11/04/drugs/</link>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://laaketieto.kela.fi/2021/11/04/drugs/</guid>
+      <description>
+&lt;script src=&#34;https://laaketieto.kela.fi/2021/11/04/drugs/index.fi_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;muni &amp;lt;- geofi::get_municipalities()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Requesting response from: http://geo.stat.fi/geoserver/wfs?service=WFS&amp;amp;version=1.0.0&amp;amp;request=getFeature&amp;amp;typename=tilastointialueet%3Akunta4500k_2021&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: Coercing CRS to epsg:3067 (ETRS89 / TM35FIN)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## geofi R package: tools for open GIS data for Finland.
+## Part of rOpenGov &amp;lt;ropengov.org&amp;gt;.&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Data is licensed under: Attribution 4.0 International (CC BY 4.0)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(sf)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Linking to GEOS 3.9.1, GDAL 3.3.2, PROJ 7.2.1&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(muni, max.plot = 1)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://laaketieto.kela.fi/2021/11/04/drugs/index.fi_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;768&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reportaasi lääkkeiden käytöstä</title>
+      <link>https://laaketieto.kela.fi/2021/10/28/drugs/</link>
+      <pubDate>Thu, 28 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://laaketieto.kela.fi/2021/10/28/drugs/</guid>
+      <description>
+&lt;script src=&#34;https://laaketieto.kela.fi/2021/10/28/drugs/index.fi_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;muni &amp;lt;- geofi::get_municipalities()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Requesting response from: http://geo.stat.fi/geoserver/wfs?service=WFS&amp;amp;version=1.0.0&amp;amp;request=getFeature&amp;amp;typename=tilastointialueet%3Akunta4500k_2021&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: Coercing CRS to epsg:3067 (ETRS89 / TM35FIN)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## geofi R package: tools for open GIS data for Finland.
+## Part of rOpenGov &amp;lt;ropengov.org&amp;gt;.&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Data is licensed under: Attribution 4.0 International (CC BY 4.0)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(sf)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Linking to GEOS 3.9.1, GDAL 3.3.2, PROJ 7.2.1&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(muni, max.plot = 1)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://laaketieto.kela.fi/2021/10/28/drugs/index.fi_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;768&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Raportit ja julkaisut</title>
       <link>https://laaketieto.kela.fi/raportit-ja-julkaisut/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -84,41 +137,6 @@ Figure 1: A fancy pie chart.
 &lt;script src=&#34;https://laaketieto.kela.fi/raportit-ja-julkaisut/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
-&lt;hr /&gt;
-&lt;div style=&#34;padding: 20px&#34;&gt;
-
-&lt;/div&gt;
-&lt;h2 class=&#34;yellow-line-3 col-sm-12&#34; id=&#34;ajankohtaista&#34;&gt;
-Ajankohtaista
-&lt;/h2&gt;
-&lt;!--div class=&#34;row&#34;&gt;
-&lt;div class=&#34;col-sm-6&#34;&gt;
-&lt;div class=&#34;card&#34; style=&#34;width: 90%;&#34;&gt;
-&lt;a href=&#34;https://tutkimusblogi.kela.fi/arkisto/5254&#34; title=&#34;Avaa sovellus&#34;&gt;&lt;img class=&#34;card-img-top&#34; src=&#34;./blogi_001.PNG&#34; width=&#34;100%&#34;&gt;&lt;/a&gt;
-&lt;div class=&#34;card-body&#34;&gt;
-&lt;a href=&#34;https://tutkimusblogi.kela.fi/arkisto/5254&#34; title=&#34;Avaa sovellus&#34;&gt;&lt;h5 class=&#34;card-title&#34;&gt;Uusi sovellus lääkekulutuksen seurantaan – lääkkeiden hamstraus suurimmillaan viikolla 12&lt;/h5&gt;&lt;/a&gt;
-&lt;p class=&#34;card-text&#34;&gt;Kela on julkaissut sovelluksen, jonka avulla voi seurata korvattavien reseptilääkkeiden kulutusta. Sovelluksen avulla nähdään, että erityisesti hengityselinsairauksien hoitoon tarkoitettuja valmisteita on ostettu koronavirusepidemian aikaan tavallista suurempia määriä.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;col-sm-6&#34;&gt;
-&lt;div class=&#34;card&#34; style=&#34;width: 90%;&#34;&gt;
-&lt;a href=&#34;https://tutkimusblogi.kela.fi/arkisto/5568&#34; title=&#34;Avaa sovellus uuteen välilehteen&#34;&gt;&lt;img class=&#34;card-img-top&#34; src=&#34;./blogi_002.PNG&#34; width=&#34;100%&#34;&gt;&lt;/a&gt;
-&lt;div class=&#34;card-body&#34;&gt;
-&lt;a href=&#34;https://tutkimusblogi.kela.fi/arkisto/5568&#34; title=&#34;Avaa sovellus&#34;&gt;&lt;h5 class=&#34;card-title&#34;&gt;Avo- ja laitoshoidon lääkekustannusten kasvu ja lasku lääkeaineittain
-&lt;/h5&gt;&lt;/a&gt;
-&lt;p class=&#34;card-text&#34;&gt;Lääkekustannuksia korvataan ensisijaisesti sairausvakuutuksesta, mutta osan kustannuksista maksaa viimesijaisin etuus, perustoimeentulotuki. Sosiaaliturvauudistuksessa lääkekorvausjärjestelmää ja lääkkeiden maksamista toimeentulotuesta tulisikin tarkastella kokonaisuutena.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div--&gt;
-&lt;!--h3 &gt;10 uusinta tutkimusblogia aihetunnisteella &lt;code&gt;#lääkekorvaus, #lääkkeet&lt;/code&gt;&lt;/h2--&gt;
-&lt;div style=&#34;padding: 20px&#34;&gt;
-
-&lt;/div&gt;
-&lt;!--dynamic_content01_begins--&gt;
 &lt;dl class=&#34;row&#34;&gt;
 &lt;div class=&#34;col-sm-6&#34;&gt;
 &lt;img src = &#34;layout_set_logo.png&#34; height  = &#34;30px&#34;&gt;
@@ -135,7 +153,6 @@ Uutta Kelan tutkimusblogissa
 &lt;/div&gt;
 &lt;p&gt;&lt;a class = &#34;laake-link&#34; href=&#34;https://tutkimusblogi.kela.fi/arkisto/6258&#34;&gt;Kela-korvausten pienentyminen näkyy erityisesti pienituloisten korvauksissa – onko sairaanhoitovakuutusjärjestelmä reilu?&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;!--strong&gt;Aiheeton, Mikkola Hennamari, Räsänen Tapio, Kela-korvaus, lääkekorvaukset,&lt;/strong&gt;&lt;br/--&gt;
-&lt;!--i&gt;Kokonaisuutena sairaanhoitovakuutuksen korvaukset jakautuvat tasaisesti suuri- ja pienituloisille, koska lääkekorvaukset muodostavat suurimman osan korvauksista. Korvauksista on kuitenkin tullut osin entistä keskittyneempiä: suurituloiset käyttävät yhä suuremman osan korvauksista yksityisiin lääkäripalveluihin, kun taas pienituloiset käyttävät enemmän matkakorvauksia. Yli 50 vuotta käytössä ollut sairausvakuutus koostuu sairaanhoito- ja työtulovakuutuksesta. Erityisesti sairaanhoitovakuutus ja sen Kela-korvaukset ovat herättäneet julkista keskustelua. STM:n ...&lt;a href=&#34;https://tutkimusblogi.kela.fi/arkisto/6258&#34;&gt; Lue lisää&lt;/a&gt;&lt;/i--&gt;
 &lt;/dd&gt;
 &lt;/dl&gt;
 &lt;dl class=&#34;row&#34;&gt;
@@ -145,7 +162,6 @@ Uutta Kelan tutkimusblogissa
 &lt;/div&gt;
 &lt;p&gt;&lt;a class = &#34;laake-link&#34; href=&#34;https://tutkimusblogi.kela.fi/arkisto/6023&#34;&gt;Tyypin 2 diabeteslääkkeiden kulutus väheni korvaustason laskun jälkeen&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;!--strong&gt;Aaltonen Katri, Rättö Hanna, diabetes, diabeteslääkkeet, insuliini,&lt;/strong&gt;&lt;br/--&gt;
-&lt;!--i&gt;Tuoreen tutkimuksen mukaan tyypin 2 diabeteslääkkeiden ostajaa kohden laskettu keskimääräinen kuukausikulutus väheni näiden lääkkeiden korvaustason alentamisen jälkeen. Insuliinien kulutuksessa ei havaittu kasvua. Vuoden 2017 alussa tyypin 2 diabeteslääkkeiden korvaustasoa alennettiin ylemmästä 100 prosentin korvausluokasta alempaan 65 prosentin korvausluokkaan. Tarkastelimme aiemmassa blogissamme korvaustason laskun vaikutusta toimeentulotuen käyttöön. Tässä uuteen vuodet 2014-2018 kattavaan tutkimukseemme perustuvassa kirjoituksessa tarkastelemme ...&lt;a href=&#34;https://tutkimusblogi.kela.fi/arkisto/6023&#34;&gt; Lue lisää&lt;/a&gt;&lt;/i--&gt;
 &lt;/dd&gt;
 &lt;/dl&gt;
 &lt;dl class=&#34;row&#34;&gt;
@@ -155,7 +171,6 @@ Uutta Kelan tutkimusblogissa
 &lt;/div&gt;
 &lt;p&gt;&lt;a class = &#34;laake-link&#34; href=&#34;https://tutkimusblogi.kela.fi/arkisto/5965&#34;&gt;Tyypin 2 diabeteslääkkeiden omavastuun korotus lisäsi toimeentulotuen maksusitoumuksen käyttöä&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;!--strong&gt;Aaltonen Katri, Rättö Hanna, diabetes, diabeteslääkkeet, lääkekorvaukset,&lt;/strong&gt;&lt;br/--&gt;
-&lt;!--i&gt;Tuore tutkimus osoittaa, että vuoden 2017 omavastuukorotus lisäsi toimeentulotuen maksusitoumuksen käyttöä tyypin 2 diabeteslääkkeiden ostamisessa. Korvaustason alentaminen näyttää kasvattaneen potilaiden lääkelaskua. &amp;#160; Tyypin 2 diabeteksen hoidossa käytettävien lääkkeiden korvaustasoa insuliineja lukuun ottamatta alennettiin vuonna 2017 osana hallituksen säästötoimia. Ne siirrettiin ylemmästä, 100 prosentin erityiskorvausluokasta alempaan, 65 prosentin erityiskorvausluokkaan. Esityksessään (HE 184/2016 vp) hallitus arvioi, että ...&lt;a href=&#34;https://tutkimusblogi.kela.fi/arkisto/5965&#34;&gt; Lue lisää&lt;/a&gt;&lt;/i--&gt;
 &lt;/dd&gt;
 &lt;/dl&gt;
 &lt;dl class=&#34;row&#34;&gt;
@@ -165,7 +180,6 @@ Uutta Kelan tutkimusblogissa
 &lt;/div&gt;
 &lt;p&gt;&lt;a class = &#34;laake-link&#34; href=&#34;https://tutkimusblogi.kela.fi/arkisto/5889&#34;&gt;Yksityisen sektorin rooli lääkkeiden määräämisessä vaihtelee maakunnittain&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;!--strong&gt;Heino Pekka, Kari Heini, Koskinen Hanna, Rättö&lt;/strong&gt;&lt;br/--&gt;
-&lt;!--i&gt;Yksityisen sektorin osuus määrätyistä resepteistä vaihteli maakunnittain 13–31 prosentin välillä. Koko maan tasolla yksityisellä sektorilta määrättyjen reseptien osuus sairausvakuutuksen lääkekustannuksista oli arviolta noin 21 % ja korvauksista vajaat 19 %. Tarkempaa tietoa tarvitaan esimerkiksi työterveyshuollon roolista. Terveydenhuollon järjestämiseen ja rahoitukseen liittyvää vastuuta on tarkoitus keskittää hyvinvointialueille sote-uudistuksessa. Vastuun siirtämistä hyvinvointialueille selvitetään myös julkisin varoin katettavien ...&lt;a href=&#34;https://tutkimusblogi.kela.fi/arkisto/5889&#34;&gt; Lue lisää&lt;/a&gt;&lt;/i--&gt;
 &lt;/dd&gt;
 &lt;/dl&gt;
 &lt;dl class=&#34;row&#34;&gt;
@@ -175,7 +189,6 @@ Uutta Kelan tutkimusblogissa
 &lt;/div&gt;
 &lt;p&gt;&lt;a class = &#34;laake-link&#34; href=&#34;https://tutkimusblogi.kela.fi/arkisto/5882&#34;&gt;Kerralla kattoon – mistä lääkehoidoista on kyse?&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;!--strong&gt;Heino Pekka, Koskinen Hanna, Kurko Terhi, Tillman&lt;/strong&gt;&lt;br/--&gt;
-&lt;!--i&gt;Heti kalenterivuoden ensimmäisellä lääkeostolla tapahtuvista lääkekaton ylityksistä suurin osa aiheutuu biologisen valmisteen lääkeostosta. Maksukattojen yhdistämisen ja erilaisten kertymistapojen lisäksi tulee keskustella lääkkeiden hinnoista ja niihin vaikuttamisesta. Terveydenhuollon kustannuksiin, erityisesti sairausvakuutuksen korvaamiin lääkkeisiin ja matkoihin liittyvistä asiakkaiden omavastuumaksujen katoista ja niiden yhtäaikaisen vuodenvaihteessa tapahtuvan nollautumisen tuomasta taloudellisesta rasitteesta on keskusteltu viime aikoina aktiivisesti, ks. esim. Kelan ...&lt;a href=&#34;https://tutkimusblogi.kela.fi/arkisto/5882&#34;&gt; Lue lisää&lt;/a&gt;&lt;/i--&gt;
 &lt;/dd&gt;
 &lt;/dl&gt;
 &lt;dl class=&#34;row&#34;&gt;
@@ -185,7 +198,6 @@ Uutta Kelan tutkimusblogissa
 &lt;/div&gt;
 &lt;p&gt;&lt;a class = &#34;laake-link&#34; href=&#34;https://tutkimusblogi.kela.fi/arkisto/5794&#34;&gt;Liukuva lääke- ja matkakatto voisi auttaa alkuvuoteen kasautuviin suuriin sairauskuluihin&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;!--strong&gt;Heino Pekka, Soppi Aarni, Tillman Päivi, lääkekatto,&lt;/strong&gt;&lt;br/--&gt;
-&lt;!--i&gt;Lääkekatto (579,78 euroa) täyttyi vuoden 2021 kahden ensimmäisen viikon aikana 1952 henkilöllä, joista 1604:lla heti ensimmäisellä lääkeostolla. Jos vuosikatto määräytyisi Suomessakin Ruotsin tapaan liukuvasti ja kertymäkausi alkaisi ensimmäisestä matkasta tai lääkeostosta eikä kaikilla vuoden alusta, suuret maksut eivät kertyisi alkuvuoteen. Terveydenhuollon omavastuut ja asiakasmaksut puhututtavat tyypillisesti alkuvuonna, kun vuosikatot ovat vuodenvaihteessa nollautuneet ja maksut peritään ...&lt;a href=&#34;https://tutkimusblogi.kela.fi/arkisto/5794&#34;&gt; Lue lisää&lt;/a&gt;&lt;/i--&gt;
 &lt;/dd&gt;
 &lt;/dl&gt;
 &lt;dl class=&#34;row&#34;&gt;
@@ -195,7 +207,6 @@ Uutta Kelan tutkimusblogissa
 &lt;/div&gt;
 &lt;p&gt;&lt;a class = &#34;laake-link&#34; href=&#34;https://tutkimusblogi.kela.fi/arkisto/5749&#34;&gt;Avohoidon lääkekustannukset vaihtelevat maakunnittain – tulevaisuudessa korostuvat tiedolla johtaminen ja kokonaisuuden hallinta&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;!--strong&gt;Heino Pekka, Kari Heini, Koskinen Hanna, Rättö&lt;/strong&gt;&lt;br/--&gt;
-&lt;!--i&gt;Maakunnat voivat tulevaisuudessa rahoittaa avohoidon lääkekorvausmenoja. Lääkkeiden kustannukset ja sairausvakuutuskorvausten määrät kuitenkin eroavat maakuntien välillä. Maakuntien tai tulevaisuuden hyvinvointialueiden rahoitusvastuun laajentaminen edellyttää tiedolla johtamista ja tiedon laaja-alaista hyödyntämistä.   Sote-uudistuksen yhteydessä halutaan purkaa sosiaali- ja terveydenhuollon monikanavarahoitusta. Sosiaali- ja terveysministeriö asetti marraskuussa 2020 purkamista pohjustavia valmisteluryhmiä. Lääkekorvauksien valmisteluryhmän tehtävänä on selvittää, mitä osaa sairaanhoitokorvauksista ja ...&lt;a href=&#34;https://tutkimusblogi.kela.fi/arkisto/5749&#34;&gt; Lue lisää&lt;/a&gt;&lt;/i--&gt;
 &lt;/dd&gt;
 &lt;/dl&gt;
 &lt;dl class=&#34;row&#34;&gt;
@@ -205,7 +216,6 @@ Uutta Kelan tutkimusblogissa
 &lt;/div&gt;
 &lt;p&gt;&lt;a class = &#34;laake-link&#34; href=&#34;https://tutkimusblogi.kela.fi/arkisto/5568&#34;&gt;Lääkkeiden kustannuksia maksetaan myös toimeentulotuesta&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;!--strong&gt;Kari Heini, Rättö Hanna, lääkekorvaukset, lääkkeet, toimeentulotuki&lt;/strong&gt;&lt;br/--&gt;
-&lt;!--i&gt;Lääkekustannuksia korvataan ensisijaisesti sairausvakuutuksesta, mutta osan kustannuksista maksaa viimesijaisin etuus, perustoimeentulotuki. Sosiaaliturvauudistuksessa lääkekorvausjärjestelmää ja lääkkeiden maksamista toimeentulotuesta tulisikin tarkastella kokonaisuutena. Toimeentulotuki muodostaa sairausvakuutuksen lääkekorvausjärjestelmälle osin täydentävän ja osin sille rinnakkaisen lääkkeiden julkisen maksukanavan. Järjestelmien perusteet lääkekustannusten maksamiselle ovat erilaiset. Tarkastelemme tässä kirjoituksessa kahta lääkekustannuksia maksavaa julkista kanavaa, sairausvakuutuksen lääkekorvausjärjestelmää ja perustoimeentulotukea. Aihetta on tarkasteltu laajemmin ...&lt;a href=&#34;https://tutkimusblogi.kela.fi/arkisto/5568&#34;&gt; Lue lisää&lt;/a&gt;&lt;/i--&gt;
 &lt;/dd&gt;
 &lt;/dl&gt;
 &lt;!--a href = &#34;https://tutkimusblogi.kela.fi/avainsanat/laakkeet&#34;&gt;Lue lisää Kelan tutkimusblogista&lt;/a--&gt;
@@ -218,6 +228,16 @@ Uutta Kelan tutkimusblogissa
 &lt;h5&gt;
 Ajankohtaista Fimeasta
 &lt;/h5&gt;
+&lt;dl class=&#34;row&#34;&gt;
+&lt;dd class=&#34;col-sm-12&#34;&gt;
+&lt;div class=&#34;yellow-line&#34;&gt;
+2021-11-26
+&lt;/div&gt;
+&lt;a class = &#34;laake-link&#34; href=&#34;http://www.fimea.fi/web/guest/-/fimea-ja-tukija-jarjestivat-virtuaalitilaisuuden-eu-kliinisten-laaketutkimusten-asetuksen-soveltamisesta&#34;&gt;Fimea ja TUKIJA järjestivät virtuaalitilaisuuden EU:n kliinisten lääketutkimusten asetuksen soveltamisesta&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;!--strong&gt;NA&lt;/strong&gt;&lt;br/--&gt;
+&lt;!--i&gt;Fimea ja TUKIJA järjestivät yhdessä lääketutkimusten toimeksiantajille, akateemisille tutkijoille ja tutkimusyksiköille sekä yliopistojen lääketieteellisille tiedekunnille suunnatun virtuaalisen tilaisuuden 24.11.2021. Tilaisuudessa kerrottiin, mikä muuttuu, kun EU:n kliinisten lääketutkimusten asetuksen soveltaminen alkaa 31.1.2022 sekä käytiin läpi uutta CTIS-portaaliohjelmaa.Tilaisuuden esitykset:Tilaisuuden avaus, Kohti kliinisen lääketutkimusasetuksen implementaatiota,Jaostopäällikkö Pirjo Inki, FimeaLääketutkimusten eettinen arviointi ja eettisten toimikuntien järjestelmän muutokset, Pääsihteeri Outi Konttinen, TUKIJAClinical Trial Information System (CTIS) eli EU-portaali ohjelma ja tietokanta,Koordinaattori Eija Mikkonen, FimeatrueEija Mikkonen, kliinisten lääketutkimusten koordinaattori, p. 029 522 3393Sähköpostiosoitteet ovat muotoa etunimi.sukunimi@fimea.fi&lt;a href=&#34;http://www.fimea.fi/web/guest/-/fimea-ja-tukija-jarjestivat-virtuaalitilaisuuden-eu-kliinisten-laaketutkimusten-asetuksen-soveltamisesta&#34;&gt; Lue lisää&lt;/a&gt;&lt;/i--&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
 &lt;dl class=&#34;row&#34;&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
 &lt;div class=&#34;yellow-line&#34;&gt;
@@ -265,7 +285,7 @@ Ajankohtaista Fimeasta
 &lt;/div&gt;
 &lt;a class = &#34;laake-link&#34; href=&#34;http://www.fimea.fi/web/guest/-/laaketietovarannon-toimintamalli-tarkentunut&#34;&gt;Lääketietovarannon toimintamalli tarkentunut&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
 &lt;!--strong&gt;NA&lt;/strong&gt;&lt;br/--&gt;
-&lt;!--i&gt;Lääketietovarannon selvityksen kuvaamia keskitetyn lääketietovarannon lähtökohtia on syvennetty kesän ja syksyn 2021 aikana. Toteutuessaan kansallinen lääketietovaranto tarkoittaisi yhteistä tietovarantoa, johon koottaisiin eri viranomaisten tehtäviin ja palveluihin liittyviä tietoaineistoja lääkevalmisteista, kasvirohdosvalmisteista sekä korvattavista perusvoiteista ja kliinisistä ravintovalmisteista.Fimealle vastuutetussa työskentelyssä tarkennettiin kansallisen lääketietovarannon toimintaedellytyksiä yhteistyössä kansallisten viranomaisten ja muiden keskeisten sidosryhmien kanssa. Jatkotyö painottui erityisesti lääketietovarannon ensisijaisiin tietosisältöihin ja niissä havaittuihin kehittämistarpeisiin sekä eri toimijatahojen tehtäviin tiedon tuottamisessa, käsittelyssä ja hyödyntämisessä.&amp;nbsp;Lääketietovarannon toimintaedellytysten selvittäminen ja lääkevalmisteeseen liittyvien nykytilanteeseen pohjautuvien kehittämistarpeiden kirkastaminen sisältyvät sosiaali- ja terveysministeriön lääkeasioiden uudistus -hankkeeseen. Hankkeen tiedonhallinnan&amp;nbsp;osakokonaisuudessa kehittämisen tavoitteena on tukea tiedonhallinnan keinoin lääkevalmisteen tiedon saatavuutta ja käytettävyyttä. Lääkeasioiden uudistuksen koordinaatioryhmä on keskustellut lääketietovarannon jatkotyön esiin nostamista kehittämisnäkymistä.Työskentely jatkuu seuraavassa vaiheessa lääketietovarannon ratkaisukuvauksen sekä kustannushyötyarvioinnin osalta. Tavoitteena on&amp;nbsp;tuottaa&amp;nbsp;selkeä tietopohja kansalliseen päätöksentekoon lääkevalmisteen tietojen kehittämisestä lähivuosina ja pitkällä tähtäimellä.Lue lisää:Lääketietovarannon jatkoselvitys: Lääketietovarannon toimintaedellytykset valtakunnallisena palveluna&amp;nbsp;(Julkaisuarkisto Valto)Lääkeasioiden uudistus (Sosiaali- ja terveysministeriö)Sosiaali terveysminiseriön verkkouutinen 19.11.2021: Lääketietovarannon toimintamalli tarkentunuttruePiia Rannanheimo, Fimea, p. 0295 223 517, etunimi.sukunimi@fimea.fi (lääketietovarantoselvitys)Riikka Vuokko, STM, p. 0295 163 600, etunimi.sukunimi@gov.fi (lääkehoidon tiedonhallinnan kehittäminen)&lt;a href=&#34;http://www.fimea.fi/web/guest/-/laaketietovarannon-toimintamalli-tarkentunut&#34;&gt; Lue lisää&lt;/a&gt;&lt;/i--&gt;
+&lt;!--i&gt;Lääketietovarannon selvityksen kuvaamia keskitetyn lääketietovarannon lähtökohtia on syvennetty kesän ja syksyn 2021 aikana. Toteutuessaan kansallinen lääketietovaranto tarkoittaisi yhteistä tietovarantoa, johon koottaisiin eri viranomaisten tehtäviin ja palveluihin liittyviä tietoaineistoja lääkevalmisteista, kasvirohdosvalmisteista sekä korvattavista perusvoiteista ja kliinisistä ravintovalmisteista.Fimealle vastuutetussa työskentelyssä tarkennettiin kansallisen lääketietovarannon toimintaedellytyksiä yhteistyössä kansallisten viranomaisten ja muiden keskeisten sidosryhmien kanssa. Jatkotyö painottui erityisesti lääketietovarannon ensisijaisiin tietosisältöihin ja niissä havaittuihin kehittämistarpeisiin sekä eri toimijatahojen tehtäviin tiedon tuottamisessa, käsittelyssä ja hyödyntämisessä.&amp;nbsp;Lääketietovarannon toimintaedellytysten selvittäminen ja lääkevalmisteeseen liittyvien nykytilanteeseen pohjautuvien kehittämistarpeiden kirkastaminen sisältyvät sosiaali- ja terveysministeriön lääkeasioiden uudistus -hankkeeseen. Hankkeen tiedonhallinnan&amp;nbsp;osakokonaisuudessa kehittämisen tavoitteena on tukea tiedonhallinnan keinoin lääkevalmisteen tiedon saatavuutta ja käytettävyyttä. Lääkeasioiden uudistuksen koordinaatioryhmä on keskustellut lääketietovarannon jatkotyön esiin nostamista kehittämisnäkymistä.Työskentely jatkuu seuraavassa vaiheessa lääketietovarannon ratkaisukuvauksen sekä kustannushyötyarvioinnin osalta. Tavoitteena on&amp;nbsp;tuottaa&amp;nbsp;selkeä tietopohja kansalliseen päätöksentekoon lääkevalmisteen tietojen kehittämisestä lähivuosina ja pitkällä tähtäimellä.Lue lisää:Lääketietovarannon jatkoselvitys: Lääketietovarannon toimintaedellytykset valtakunnallisena palveluna&amp;nbsp;(Julkaisuarkisto Valto)Lääkeasioiden uudistus (Sosiaali- ja terveysministeriö)Sosiaali terveysminiseriön verkkouutinen 19.11.2021: Lääketietovarannon toimintamalli tarkentunuttruePiia Rannanheimo, Fimea, p. 0295 223 517, etunimi.sukunimi@fimea.fi (lääketietovarantoselvitys)Riikka Vuokko, STM, p. 0295 163 600, etunimi.sukunimi@gov.fi (lääkehoidon tiedonhallinnan kehittäminen)&lt;a href=&#34;http://www.fimea.fi/web/guest/-/laaketietovarannon-toimintamalli-tarkentunut&#34;&gt; Lue lisää&lt;/a&gt;&lt;/i--&gt;
 &lt;/dd&gt;
 &lt;/dl&gt;
 &lt;dl class=&#34;row&#34;&gt;
@@ -288,21 +308,10 @@ Ajankohtaista Fimeasta
 &lt;!--i&gt;Päivitetty 19.11.2021.&amp;nbsp;Euroopan lääkevirasto&amp;nbsp;EMAn lääkevalmistekomitea ohjeistaa Lagevrion (molnupiraviiri) käyttöä hoitona COVID-19-tautiin. EMAn tiedote 19.11.2021Euroopan lääkevirasto EMAssa on meneillään nopeutettu myyntilupa-arviointi (ns. rullaava arviointi) molnupiraviiri-valmisteesta, joka on suun kautta otettava viruslääke aikuisille.Pandemiatilanteen vuoksi Euroopan lääkevirasto EMA ja lääkevirastojen päälliköt ovat sopineet lisäohjeistuksen laatimisesta, ns. Art. 5 (3) mukainen prosessi, jonka perusteella voitaisiin nopeuttaa molnupiraviiri-lääkevalmisteen käyttöä Covid-19-hoidoissa EU alueella jo ennen varsinaista myyntilupaprosessin valmistumista. Tätä varten EMA tarkistaa saatavilla olevia tutkimustietoja molnupiraviiristä mahdollisimman nopeasti.Nopeasta aikataulusta huolimatta arvioinnissa varmistetaan, että valmisteen laatu, turvallisuus ja teho ovat riittävän korkealla tasolla.Lue lisää:EMAn tiedote: COVID-19: EMA and Heads of Medicines Agencies update on molnupiravirtrueJukka Sallinen, yksikön päällikkö, p. 029 522 3410Sähköposti muotoa etunimi.sukunimi@fimea.fi&lt;a href=&#34;http://www.fimea.fi/web/guest/-/ema-arvioi-molnupiraviirin-kayttoa-nopealla-aikataululla&#34;&gt; Lue lisää&lt;/a&gt;&lt;/i--&gt;
 &lt;/dd&gt;
 &lt;/dl&gt;
-&lt;dl class=&#34;row&#34;&gt;
-&lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;div class=&#34;yellow-line&#34;&gt;
-2021-11-18
-&lt;/div&gt;
-&lt;a class = &#34;laake-link&#34; href=&#34;http://www.fimea.fi/web/guest/-/antibioottien-kaytto-elaimille-vahentynyt-edelleen&#34;&gt;Antibioottien käyttö eläimille vähentynyt edelleen&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
-&lt;!--strong&gt;NA&lt;/strong&gt;&lt;br/--&gt;
-&lt;!--i&gt;Eläinten antibiootteja myytiin Suomessa vuonna 2020 vähemmän kuin koskaan aikaisemmin. Maltillinen antibioottikäyttö näkyy myös eläinten bakteerien resistenssituloksissa, mikä selviää Ruokaviraston, Fimean ja Helsingin yliopiston yhteisestä FINRES-Vet 2020 -raportista.Lue lisää:Ruokaviraston uutinen: Antibioottien käyttö eläimille vähentynyt edelleenFinres vet 2020 -raporttiMuut Finres vet -raportit Ruokaviraston verkkosivullatrueKatariina Kivilahti-Mäntylä, eläinlääkäri, p. 029 522 3354Sähköpostiosoitteet ovat muotoa etunimi.sukunimi@fimea.fi&lt;a href=&#34;http://www.fimea.fi/web/guest/-/antibioottien-kaytto-elaimille-vahentynyt-edelleen&#34;&gt; Lue lisää&lt;/a&gt;&lt;/i--&gt;
-&lt;/dd&gt;
-&lt;/dl&gt;
 &lt;!--a href = &#34;https://www.fimea.fi/tietoa_fimeasta/ajankohtaista/uutiset&#34;&gt;Lue lisää Fimean kotisivuilta&lt;/a--&gt;
 &lt;/div&gt;
 &lt;/dl&gt;
 &lt;hr&gt;
-&lt;!--dynamic_content01_ends--&gt;
 </description>
     </item>
     

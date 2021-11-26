@@ -1,0 +1,17 @@
+---
+title: 'Reportaasi lääkkeiden käytöstä'
+author: Eino Käly
+date: '2021-11-11'
+slug: drugs
+categories:
+  - drugs
+tags:
+  - pill
+---
+
+```{r, fig.height=14, fig.width=8}
+muni <- geofi::get_municipalities()
+library(sf)
+plot(muni, max.plot = 1)
+```
+

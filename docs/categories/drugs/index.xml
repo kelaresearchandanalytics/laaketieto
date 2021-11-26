@@ -9,16 +9,121 @@
     <lastBuildDate>Thu, 25 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://laaketieto.kela.fi/categories/drugs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reportaasi lääkkeiden käytöstä</title>
-      <link>https://laaketieto.kela.fi/2021/11/drugs/</link>
+      <link>https://laaketieto.kela.fi/2021/11/25/drugs/</link>
       <pubDate>Thu, 25 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://laaketieto.kela.fi/2021/11/drugs/</guid>
+      <guid>https://laaketieto.kela.fi/2021/11/25/drugs/</guid>
       <description>
-&lt;script src=&#34;https://laaketieto.kela.fi/2021/11/drugs/index.fi_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://laaketieto.kela.fi/2021/11/25/drugs/index.fi_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(cars)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://laaketieto.kela.fi/2021/11/drugs/index.fi_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;muni &amp;lt;- geofi::get_municipalities()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Requesting response from: http://geo.stat.fi/geoserver/wfs?service=WFS&amp;amp;version=1.0.0&amp;amp;request=getFeature&amp;amp;typename=tilastointialueet%3Akunta4500k_2021&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: Coercing CRS to epsg:3067 (ETRS89 / TM35FIN)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## geofi R package: tools for open GIS data for Finland.
+## Part of rOpenGov &amp;lt;ropengov.org&amp;gt;.&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Data is licensed under: Attribution 4.0 International (CC BY 4.0)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(sf)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Linking to GEOS 3.9.1, GDAL 3.3.2, PROJ 7.2.1&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(muni, max.plot = 1)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://laaketieto.kela.fi/2021/11/25/drugs/index.fi_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;768&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reportaasi lääkkeiden käytöstä</title>
+      <link>https://laaketieto.kela.fi/2021/11/18/drugs/</link>
+      <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://laaketieto.kela.fi/2021/11/18/drugs/</guid>
+      <description>
+&lt;script src=&#34;https://laaketieto.kela.fi/2021/11/18/drugs/index.fi_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;muni &amp;lt;- geofi::get_municipalities()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Requesting response from: http://geo.stat.fi/geoserver/wfs?service=WFS&amp;amp;version=1.0.0&amp;amp;request=getFeature&amp;amp;typename=tilastointialueet%3Akunta4500k_2021&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: Coercing CRS to epsg:3067 (ETRS89 / TM35FIN)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## geofi R package: tools for open GIS data for Finland.
+## Part of rOpenGov &amp;lt;ropengov.org&amp;gt;.&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Data is licensed under: Attribution 4.0 International (CC BY 4.0)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(sf)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Linking to GEOS 3.9.1, GDAL 3.3.2, PROJ 7.2.1&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(muni, max.plot = 1)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://laaketieto.kela.fi/2021/11/18/drugs/index.fi_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;768&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reportaasi lääkkeiden käytöstä</title>
+      <link>https://laaketieto.kela.fi/2021/11/11/drugs/</link>
+      <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://laaketieto.kela.fi/2021/11/11/drugs/</guid>
+      <description>
+&lt;script src=&#34;https://laaketieto.kela.fi/2021/11/11/drugs/index.fi_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;muni &amp;lt;- geofi::get_municipalities()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Requesting response from: http://geo.stat.fi/geoserver/wfs?service=WFS&amp;amp;version=1.0.0&amp;amp;request=getFeature&amp;amp;typename=tilastointialueet%3Akunta4500k_2021&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: Coercing CRS to epsg:3067 (ETRS89 / TM35FIN)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## geofi R package: tools for open GIS data for Finland.
+## Part of rOpenGov &amp;lt;ropengov.org&amp;gt;.&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Data is licensed under: Attribution 4.0 International (CC BY 4.0)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(sf)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Linking to GEOS 3.9.1, GDAL 3.3.2, PROJ 7.2.1&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(muni, max.plot = 1)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://laaketieto.kela.fi/2021/11/11/drugs/index.fi_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;768&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reportaasi lääkkeiden käytöstä</title>
+      <link>https://laaketieto.kela.fi/2021/11/04/drugs/</link>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://laaketieto.kela.fi/2021/11/04/drugs/</guid>
+      <description>
+&lt;script src=&#34;https://laaketieto.kela.fi/2021/11/04/drugs/index.fi_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;muni &amp;lt;- geofi::get_municipalities()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Requesting response from: http://geo.stat.fi/geoserver/wfs?service=WFS&amp;amp;version=1.0.0&amp;amp;request=getFeature&amp;amp;typename=tilastointialueet%3Akunta4500k_2021&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: Coercing CRS to epsg:3067 (ETRS89 / TM35FIN)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## geofi R package: tools for open GIS data for Finland.
+## Part of rOpenGov &amp;lt;ropengov.org&amp;gt;.&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Data is licensed under: Attribution 4.0 International (CC BY 4.0)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(sf)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Linking to GEOS 3.9.1, GDAL 3.3.2, PROJ 7.2.1&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(muni, max.plot = 1)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://laaketieto.kela.fi/2021/11/04/drugs/index.fi_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;768&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reportaasi lääkkeiden käytöstä</title>
+      <link>https://laaketieto.kela.fi/2021/10/28/drugs/</link>
+      <pubDate>Thu, 28 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://laaketieto.kela.fi/2021/10/28/drugs/</guid>
+      <description>
+&lt;script src=&#34;https://laaketieto.kela.fi/2021/10/28/drugs/index.fi_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;muni &amp;lt;- geofi::get_municipalities()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Requesting response from: http://geo.stat.fi/geoserver/wfs?service=WFS&amp;amp;version=1.0.0&amp;amp;request=getFeature&amp;amp;typename=tilastointialueet%3Akunta4500k_2021&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: Coercing CRS to epsg:3067 (ETRS89 / TM35FIN)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## geofi R package: tools for open GIS data for Finland.
+## Part of rOpenGov &amp;lt;ropengov.org&amp;gt;.&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Data is licensed under: Attribution 4.0 International (CC BY 4.0)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(sf)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Linking to GEOS 3.9.1, GDAL 3.3.2, PROJ 7.2.1&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(muni, max.plot = 1)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://laaketieto.kela.fi/2021/10/28/drugs/index.fi_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;768&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
