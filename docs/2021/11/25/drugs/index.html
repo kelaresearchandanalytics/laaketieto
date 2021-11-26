@@ -10,7 +10,7 @@
 
 
 <meta property="og:title" content="Reportaasi lääkkeiden käytöstä" />
-<meta property="og:description" content="  muni &lt;- geofi::get_municipalities() ## Requesting response from: http://geo.stat.fi/geoserver/wfs?service=WFS&amp;version=1.0.0&amp;request=getFeature&amp;typename=tilastointialueet%3Akunta4500k_2021 ## Warning: Coercing CRS to epsg:3067 (ETRS89 / TM35FIN) ## ## geofi R package: tools for open GIS data for Finland. ## Part of rOpenGov &lt;ropengov.org&gt;. ## Data is licensed under: Attribution 4.0 International (CC BY 4.0) library(sf) ## Linking to GEOS 3.9.1, GDAL 3.3.2, PROJ 7.2.1 plot(muni, max.plot = 1) " />
+<meta property="og:description" content="  " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://laaketieto.kela.fi/2021/11/25/drugs/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2021-11-25T00:00:00&#43;00:00" />
@@ -19,7 +19,7 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Reportaasi lääkkeiden käytöstä"/>
-<meta name="twitter:description" content="  muni &lt;- geofi::get_municipalities() ## Requesting response from: http://geo.stat.fi/geoserver/wfs?service=WFS&amp;version=1.0.0&amp;request=getFeature&amp;typename=tilastointialueet%3Akunta4500k_2021 ## Warning: Coercing CRS to epsg:3067 (ETRS89 / TM35FIN) ## ## geofi R package: tools for open GIS data for Finland. ## Part of rOpenGov &lt;ropengov.org&gt;. ## Data is licensed under: Attribution 4.0 International (CC BY 4.0) library(sf) ## Linking to GEOS 3.9.1, GDAL 3.3.2, PROJ 7.2.1 plot(muni, max.plot = 1) "/>
+<meta name="twitter:description" content="  "/>
 
 
 
@@ -71,7 +71,7 @@
 
 <header class="blog-header sticky-top">
     
-    <nav class="navbar navbar-expand-md navbar-kela bg-kela navbar-light ">
+    <nav class="navbar navbar-expand-md navbar-kela bg-kela navbar-light sticky-top">
         
         <div class="navbar-brand">
             <img src="https://laaketieto.kela.fi/layout_set_logo.png"  height="50" class="d-inline-block align-top"
@@ -99,7 +99,7 @@
                 
                 <li class="nav-item ">
                     
-                    <a class="nav-link" href="/post/"><i class=""></i>&nbsp; Asiantuntijakatsaukset<i class="bi-chevron-right"></i></a>
+                    <a class="nav-link" href="/post/"><i class=""></i>&nbsp; Katsaukset<i class="bi-chevron-right"></i></a>
                     
                 </li>
                 
@@ -112,6 +112,12 @@
                 <li class="nav-item ">
                     
                     <a class="nav-link" href="/#raportit-ja-julkaisut"><i class=""></i>&nbsp; Raportit ja julkaisut<i class="bi-chevron-right"></i></a>
+                    
+                </li>
+                
+                <li class="nav-item ">
+                    
+                    <a class="nav-link" href="/#tilastotietoa"><i class=""></i>&nbsp; Tilastotietoa<i class="bi-chevron-right"></i></a>
                     
                 </li>
                 
@@ -190,16 +196,6 @@
 <script src="https://laaketieto.kela.fi/2021/11/25/drugs/index.fi_files/header-attrs/header-attrs.js"></script>
 
 
-<pre class="r"><code>muni &lt;- geofi::get_municipalities()</code></pre>
-<pre><code>## Requesting response from: http://geo.stat.fi/geoserver/wfs?service=WFS&amp;version=1.0.0&amp;request=getFeature&amp;typename=tilastointialueet%3Akunta4500k_2021</code></pre>
-<pre><code>## Warning: Coercing CRS to epsg:3067 (ETRS89 / TM35FIN)</code></pre>
-<pre><code>## 
-## geofi R package: tools for open GIS data for Finland.
-## Part of rOpenGov &lt;ropengov.org&gt;.</code></pre>
-<pre><code>## Data is licensed under: Attribution 4.0 International (CC BY 4.0)</code></pre>
-<pre class="r"><code>library(sf)</code></pre>
-<pre><code>## Linking to GEOS 3.9.1, GDAL 3.3.2, PROJ 7.2.1</code></pre>
-<pre class="r"><code>plot(muni, max.plot = 1)</code></pre>
 <p><img src="https://laaketieto.kela.fi/2021/11/25/drugs/index.fi_files/figure-html/unnamed-chunk-1-1.png" width="768" /></p>
 
 
@@ -239,6 +235,66 @@
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({ tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]} })
 </script>
+
+
+<footer class="bd-footer py-5 mt-5 bg-kela-footer">
+    <h2 id = "footer"></h2>
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-lg-3 mb-3">
+        <ul class="list-unstyled text-muted">
+            <li>
+                <a href="/web/fi/henkiloasiakkaat">Henkilöasiakkaat</a>&nbsp;<i class="icon-angle-right"></i>
+            </li>
+                                                                    
+                                                                                    
+            <li>
+                <a href="/web/fi/tyonantajat">Työnantajat</a>&nbsp;<i class="icon-angle-right"></i>
+            </li>
+                                                                    
+                                                                                    
+            <li>
+                <a href="/web/fi/yhteistyokumppanit">Yhteistyökumppanit</a>&nbsp;<i class="icon-angle-right"></i>
+            </li>
+                                                                    
+                                                                                    
+            <li>
+                <a href="/web/fi/tietoa-kelasta">Tietoa Kelasta</a>&nbsp;<i class="icon-angle-right"></i>
+            </li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+        <h5 style = "color: white;">Tässä palvelussa</h5>
+        <ul class="list-unstyled">
+            <li><a href="/web/fi/henkiloasiakkaat">Henkilöasiakkaat</a>&nbsp;<i class="icon-angle-right"></i></li>
+            <li><a href="/web/fi/tyonantajat">Työnantajat</a>&nbsp;<i class="icon-angle-right"></i></li>
+            <li><a href="/web/fi/yhteistyokumppanit">Yhteistyökumppanit</a>&nbsp;<i class="icon-angle-right"></i></li>
+            <li><a href="/web/fi/tietoa-kelasta">Tietoa Kelasta</a>&nbsp;<i class="icon-angle-right"></i></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2 mb-3">
+        <h5 style = "color: white;">Tässä palvelussa</h5>
+        <ul class="list-unstyled">
+            <li><a href="/web/fi/henkiloasiakkaat">Henkilöasiakkaat</a>&nbsp;<i class="icon-angle-right"></i></li>
+            <li><a href="/web/fi/tyonantajat">Työnantajat</a>&nbsp;<i class="icon-angle-right"></i></li>
+            <li><a href="/web/fi/yhteistyokumppanit">Yhteistyökumppanit</a>&nbsp;<i class="icon-angle-right"></i></li>
+            <li><a href="/web/fi/tietoa-kelasta">Tietoa Kelasta</a>&nbsp;<i class="icon-angle-right"></i></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2 mb-3">
+        <h5 style = "color: white;">Tässä palvelussa</h5>
+        <ul class="list-unstyled">
+            <li><a href="/web/fi/henkiloasiakkaat">Henkilöasiakkaat</a>&nbsp;<i class="icon-angle-right"></i></li>
+            <li><a href="/web/fi/tyonantajat">Työnantajat</a>&nbsp;<i class="icon-angle-right"></i></li>
+            <li><a href="/web/fi/yhteistyokumppanit">Yhteistyökumppanit</a>&nbsp;<i class="icon-angle-right"></i></li>
+            <li><a href="/web/fi/tietoa-kelasta">Tietoa Kelasta</a>&nbsp;<i class="icon-angle-right"></i></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2 mb-3">
+      </div>
+    </div>
+  </div>
+</footer>
     
 
     

@@ -8,6 +8,32 @@ output:
 ---
 
 
+
+
+```{r, results="asis", echo = FALSE, message = FALSE, warning=FALSE}
+library(glue)
+library(dplyr)
+pm_dat <- readRDS("../../local_data/pm_dat.RDS")
+pm_dat %>% 
+  mutate(item_pub_date = as.Date(item_pub_date)) %>% 
+  select(item_title,Year,item_pub_date,authors,scraped_doi) %>% 
+  arrange(desc(item_pub_date)) %>% 
+  # slice(1:8) %>% 
+  mutate(html = glue('
+  <dl class="row">
+  <dd class="col-sm-12"><div class = "yellow-line">{item_pub_date} - <i>{item_title}</i></div>
+  <i>{authors}</i><br/>
+  <a class = "laake-link" href="{scraped_doi}">{scraped_doi}<i class="bi-chevron-right"></i></a>
+  </dd></dl>')) %>% 
+  pull(html) %>% 
+  cat()
+```
+
+
+
+
+
+
 ```{r, results="asis", echo = FALSE, message = FALSE, warning=FALSE}
 library(glue)
 library(dplyr)
