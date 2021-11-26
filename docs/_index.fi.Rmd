@@ -11,29 +11,6 @@ plot(cars)
 
 <main id="maincontent">
 
-<div class="row">      
-<div class="col-sm-7">      
-  
-
-<h1>Tutkittua tietoa lääkkeistä</h1>
-
-
-<p>Tälle sivustolle on koottu kaikille avoimia välineitä ajantasaisen lääkkeiden kulutuksen ja kustannusten seuraamiseen. Sivustolla esitetyt tietotuotteet on laadittu Kelan Tietopalveluissa. Lääkkeiden kustannuskehitystä tarkasteleva sovellus ja Suomen Lääketilasto on tehty Kelan Tietopalveluiden ja Lääkealan turvallisuus- ja kehittämiskeskus Fimean yhteistyönä.</p>
-
-</div>
-
-<div class="col-sm-5">      
-
-<img src= "paakuva.png" width = "80%">
-
-
-</div>
-</div>
-
-
-
-
-
 <div style = "padding: 20px"></div>
 <h2 class = "yellow-line-3 col-sm-12" id = "ajankohtaista">Ajankohtaista</h2>
 
