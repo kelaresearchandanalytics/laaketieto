@@ -1,0 +1,15 @@
+---
+title: 'Reportaasi lääkkeiden käytöstä'
+author: Markus Kainu
+date: '2021-11-25'
+slug: drugs
+categories:
+  - drugs
+tags:
+  - pill
+---
+
+```{r}
+plot(cars)
+```
+
