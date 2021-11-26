@@ -97,8 +97,8 @@ Figure 1: A fancy pie chart.
 &lt;script src=&#34;https://laaketieto.kela.fi/saavutettavuusseloste/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
-&lt;div id=&#34;tervetuloa-tämä-on-kelan-koronamittarit-sivuston-saavutettavuusseloste&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Tervetuloa, tämä on Kelan &lt;a href=&#34;https://koronamittarit.kela.fi&#34;&gt;koronamittarit&lt;/a&gt;-sivuston saavutettavuusseloste&lt;/h2&gt;
+&lt;div id=&#34;tervetuloa-tämä-on-kelan-laaketieto.kela.fi-sivuston-saavutettavuusseloste&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Tervetuloa, tämä on Kelan &lt;a href=&#34;https://laaketieto.kela.fi&#34;&gt;laaketieto.kela.fi&lt;/a&gt;-sivuston saavutettavuusseloste&lt;/h2&gt;
 &lt;p&gt;Tämä saavutettavuusseloste koskee Koronamittarit-sivustoa osoitteessa: &lt;a href=&#34;https://koronamittarit.kela.fi&#34; class=&#34;uri&#34;&gt;https://koronamittarit.kela.fi&lt;/a&gt; ja on päivitetty 21.09.2020.&lt;/p&gt;
 &lt;p&gt;Olemme arvioineet palvelun saavutettavuuden itse.&lt;/p&gt;
 &lt;/div&gt;
@@ -147,10 +147,10 @@ puhelinnumero vaihde 0295 016 000&lt;/p&gt;
 &lt;script src=&#34;https://laaketieto.kela.fi/tietosuojaseloste/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
-&lt;div id=&#34;kelan-koronamittarit--verkkopalvelun-tietosuojaseloste&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Kelan koronamittarit -verkkopalvelun tietosuojaseloste&lt;/h2&gt;
-&lt;p&gt;Tämä tietosuojaseloste koskee kaikille avointa &lt;em&gt;Kelan koronamittarit&lt;/em&gt; -verkkopalvelua osoiteessa: &lt;a href=&#34;https://koronamittarit.kela.fi&#34;&gt;koronamittarit.kela.fi&lt;/a&gt;. Tässä tietosuojaselosteessa kuvataan, miten Kela käsittelee rekisterinpitäjänä verkkopalvelun käyttäjiä koskevaa tietoa.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Kelan koronamittarit&lt;/em&gt; -palvelun tuotannosta ja ylläpidosta vastaa Kela. Kela on sitoutunut suojaamaan verkkopalvelun käyttäjien sekä asiakkaidensa yksityisyyttä. Evästeiden avulla kerätään tietoa siitä, miten ja milloin Kelan sivustoa käytetään. Tämä tietosuojaseloste kuvaa evästekäytännöt &lt;em&gt;Kelan koronamittarit&lt;/em&gt; -palvelussa.&lt;/p&gt;
+&lt;div id=&#34;kelan-laaketieto.kela.fi--verkkopalvelun-tietosuojaseloste&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Kelan laaketieto.kela.fi -verkkopalvelun tietosuojaseloste&lt;/h2&gt;
+&lt;p&gt;Tämä tietosuojaseloste koskee kaikille avointa &lt;em&gt;laaketieto.kela.fi&lt;/em&gt; -verkkopalvelua osoitteessa: &lt;a href=&#34;https://koronamittarit.kela.fi&#34;&gt;laaketieto.kela.fi&lt;/a&gt;. Tässä tietosuojaselosteessa kuvataan, miten Kela käsittelee rekisterinpitäjänä verkkopalvelun käyttäjiä koskevaa tietoa.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;laaketieto.kela.fi&lt;/em&gt; -palvelun tuotannosta ja ylläpidosta vastaa Kela. Kela on sitoutunut suojaamaan verkkopalvelun käyttäjien sekä asiakkaidensa yksityisyyttä. Evästeiden avulla kerätään tietoa siitä, miten ja milloin Kelan sivustoa käytetään. Tämä tietosuojaseloste kuvaa evästekäytännöt &lt;em&gt;laaketieto.kela.fi&lt;/em&gt; -palvelussa.&lt;/p&gt;
 &lt;div id=&#34;yhteystiedot&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Yhteystiedot&lt;/h3&gt;
 &lt;p&gt;Kansaneläkelaitos (Kela)&lt;br /&gt;
@@ -162,8 +162,8 @@ Tietosuojavastaava: &lt;a href=&#34;mailto:tietosuoja@kela.fi&#34; class=&#34;em
 &lt;/div&gt;
 &lt;div id=&#34;mitä-evästeet-ovat-mitä-tietoja-niillä-kerätään-ja-mihin-evästeiden-tietoja-käytetään&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Mitä evästeet ovat, mitä tietoja niillä kerätään ja mihin evästeiden tietoja käytetään?&lt;/h3&gt;
-&lt;p&gt;Kuten monessa muussa verkkopalvelussa &lt;em&gt;Kelan koronamittarit&lt;/em&gt; -verkkopalvelussa käytetään evästeitä. Eväste on tekstitiedosto, joka tallentuu käyttäjän päätelaitteelle ja tallentaa tietoa käynnistä &lt;em&gt;Kelan koronamittarit&lt;/em&gt; -verkkopalvelussa.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Kelan koronamittarit&lt;/em&gt; -verkkopalvelussa evästeiden avulla kerätään tietoa esimerkiksi siitä,&lt;/p&gt;
+&lt;p&gt;Kuten monessa muussa verkkopalvelussa &lt;em&gt;laaketieto.kela.fi&lt;/em&gt; -verkkopalvelussa käytetään evästeitä. Eväste on tekstitiedosto, joka tallentuu käyttäjän päätelaitteelle ja tallentaa tietoa käynnistä &lt;em&gt;laaketieto.kela.fi&lt;/em&gt; -verkkopalvelussa.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;laaketieto.kela.fi&lt;/em&gt; -verkkopalvelussa evästeiden avulla kerätään tietoa esimerkiksi siitä,&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;kuinka paljon verkkopalvelussa on käyttäjiä&lt;br /&gt;
 &lt;/li&gt;
@@ -172,7 +172,7 @@ Tietosuojavastaava: &lt;a href=&#34;mailto:tietosuoja@kela.fi&#34; class=&#34;em
 &lt;li&gt;mistä verkko-osoitteesta verkkopalvelun käyttäjät ovat saapuneet verkkopalveluun&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Evästeet tallentavat automaattisesti verkkopalvelussa käyneiden käyttäjien tekemät sivupyynnöt. Tiedot sisältävät yleensä käyttäjän tekemän verkkopyynnön, pyynnön päivämäärän ja ajan, käyttäjän päätelaitteen IP-osoitteen sekä selaimen tyypin ja kielen.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Kelan koronamittarit&lt;/em&gt; -verkkopalvelussa on käytössä ainoastaan &lt;em&gt;kävijämittaus- ja analytiikkaevästeet&lt;/em&gt;, joita kerätään verkkoanalytiikkatyökalu Piwik Pro:lla. Tietoja kerätään, jotta voidaan analysoida kävijämääriä, sisällön kiinnostavuutta ja palvelun käyttötapoja sekä kehittää verkkosivustoa. Piwik Pro –työkalulle ei pyydetä käyttäjältä suostumusta, mutta käyttäjä voi kuitenkin estää Piwik Pron evästeiden käyttämisen oman selaimensa asetuksista.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;laaketieto.kela.fi&lt;/em&gt; -verkkopalvelussa on käytössä ainoastaan &lt;em&gt;kävijämittaus- ja analytiikkaevästeet&lt;/em&gt;, joita kerätään verkkoanalytiikkatyökalu Piwik Pro:lla. Tietoja kerätään, jotta voidaan analysoida kävijämääriä, sisällön kiinnostavuutta ja palvelun käyttötapoja sekä kehittää verkkosivustoa. Piwik Pro –työkalulle ei pyydetä käyttäjältä suostumusta, mutta käyttäjä voi kuitenkin estää Piwik Pron evästeiden käyttämisen oman selaimensa asetuksista.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;mikä-on-tietojan-säilytysaika-ja-miten-tiedot-suojataan&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Mikä on tietojan säilytysaika ja miten tiedot suojataan?&lt;/h3&gt;
@@ -187,9 +187,9 @@ Tietosuojavastaava: &lt;a href=&#34;mailto:tietosuoja@kela.fi&#34; class=&#34;em
 &lt;/div&gt;
 &lt;div id=&#34;voidaanko-tietosuojaselosteeseen-tehdä-muutoksia&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Voidaanko tietosuojaselosteeseen tehdä muutoksia?&lt;/h3&gt;
-&lt;p&gt;Kela voi tehdä ajoittain muutoksia näihin evästekäytäntöihin, jos tämä on perusteltua esimerkiksi käsittelyn tarkoituksen tai viranomaissuositusten tai lainsäädännön muuttuessa. Muutoksista tiedotetaan &lt;em&gt;Kelan koronamittarit&lt;/em&gt; -verkkopalvelussa&lt;br /&gt;
-EU:n yleiseen tietosuoja-asetukseen perustuva &lt;em&gt;Kelan koronamittarit&lt;/em&gt; -palvelun tietosuojaseloste on julkaistu 22.9.2020.&lt;/p&gt;
-&lt;p&gt;Sivua päivitetty 22.9.2020&lt;/p&gt;
+&lt;p&gt;Kela voi tehdä ajoittain muutoksia näihin evästekäytäntöihin, jos tämä on perusteltua esimerkiksi käsittelyn tarkoituksen tai viranomaissuositusten tai lainsäädännön muuttuessa. Muutoksista tiedotetaan &lt;em&gt;laaketieto.kela.fi&lt;/em&gt; -verkkopalvelussa&lt;br /&gt;
+EU:n yleiseen tietosuoja-asetukseen perustuva &lt;em&gt;laaketieto.kela.fi&lt;/em&gt; -palvelun tietosuojaseloste on julkaistu 1.12.2021.&lt;/p&gt;
+&lt;p&gt;Sivua päivitetty 1.12.2021&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 </description>

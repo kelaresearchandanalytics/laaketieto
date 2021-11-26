@@ -39,25 +39,25 @@ plot(cars)
 
 <!--div class="row">
 <div class="col-sm-6">
-  <div class="card" style="width: 90%;">
-      <a href="https://tutkimusblogi.kela.fi/arkisto/5254" title="Avaa sovellus"><img class="card-img-top" src="./blogi_001.PNG" width="100%"></a>
-      <div class="card-body">
-          <a href="https://tutkimusblogi.kela.fi/arkisto/5254" title="Avaa sovellus"><h5 class="card-title">Uusi sovellus lääkekulutuksen seurantaan – lääkkeiden hamstraus suurimmillaan viikolla 12</h5></a>
-        <p class="card-text">Kela on julkaissut sovelluksen, jonka avulla voi seurata korvattavien reseptilääkkeiden kulutusta. Sovelluksen avulla nähdään, että erityisesti hengityselinsairauksien hoitoon tarkoitettuja valmisteita on ostettu koronavirusepidemian aikaan tavallista suurempia määriä.
-        </p>
-      </div>
-    </div>
+<div class="card" style="width: 90%;">
+<a href="https://tutkimusblogi.kela.fi/arkisto/5254" title="Avaa sovellus"><img class="card-img-top" src="./blogi_001.PNG" width="100%"></a>
+<div class="card-body">
+<a href="https://tutkimusblogi.kela.fi/arkisto/5254" title="Avaa sovellus"><h5 class="card-title">Uusi sovellus lääkekulutuksen seurantaan – lääkkeiden hamstraus suurimmillaan viikolla 12</h5></a>
+<p class="card-text">Kela on julkaissut sovelluksen, jonka avulla voi seurata korvattavien reseptilääkkeiden kulutusta. Sovelluksen avulla nähdään, että erityisesti hengityselinsairauksien hoitoon tarkoitettuja valmisteita on ostettu koronavirusepidemian aikaan tavallista suurempia määriä.
+</p>
+</div>
+</div>
 </div>
 <div class="col-sm-6">
-  <div class="card" style="width: 90%;">
-      <a href="https://tutkimusblogi.kela.fi/arkisto/5568" title="Avaa sovellus uuteen välilehteen"><img class="card-img-top" src="./blogi_002.PNG" width="100%"></a>
-      <div class="card-body">
-          <a href="https://tutkimusblogi.kela.fi/arkisto/5568" title="Avaa sovellus"><h5 class="card-title">Avo- ja laitoshoidon lääkekustannusten kasvu ja lasku lääkeaineittain
-          </h5></a>
-        <p class="card-text">Lääkekustannuksia korvataan ensisijaisesti sairausvakuutuksesta, mutta osan kustannuksista maksaa viimesijaisin etuus, perustoimeentulotuki. Sosiaaliturvauudistuksessa lääkekorvausjärjestelmää ja lääkkeiden maksamista toimeentulotuesta tulisikin tarkastella kokonaisuutena.
-        </p>
-      </div>
-    </div>
+<div class="card" style="width: 90%;">
+<a href="https://tutkimusblogi.kela.fi/arkisto/5568" title="Avaa sovellus uuteen välilehteen"><img class="card-img-top" src="./blogi_002.PNG" width="100%"></a>
+<div class="card-body">
+<a href="https://tutkimusblogi.kela.fi/arkisto/5568" title="Avaa sovellus"><h5 class="card-title">Avo- ja laitoshoidon lääkekustannusten kasvu ja lasku lääkeaineittain
+</h5></a>
+<p class="card-text">Lääkekustannuksia korvataan ensisijaisesti sairausvakuutuksesta, mutta osan kustannuksista maksaa viimesijaisin etuus, perustoimeentulotuki. Sosiaaliturvauudistuksessa lääkekorvausjärjestelmää ja lääkkeiden maksamista toimeentulotuesta tulisikin tarkastella kokonaisuutena.
+</p>
+</div>
+</div>
 </div>
 </div-->
 
@@ -123,7 +123,7 @@ plot(cars)
 <!--i>Lääkekustannuksia korvataan ensisijaisesti sairausvakuutuksesta, mutta osan kustannuksista maksaa viimesijaisin etuus, perustoimeentulotuki. Sosiaaliturvauudistuksessa lääkekorvausjärjestelmää ja lääkkeiden maksamista toimeentulotuesta tulisikin tarkastella kokonaisuutena. Toimeentulotuki muodostaa sairausvakuutuksen lääkekorvausjärjestelmälle osin täydentävän ja osin sille rinnakkaisen lääkkeiden julkisen maksukanavan. Järjestelmien perusteet lääkekustannusten maksamiselle ovat erilaiset. Tarkastelemme tässä kirjoituksessa kahta lääkekustannuksia maksavaa julkista kanavaa, sairausvakuutuksen lääkekorvausjärjestelmää ja perustoimeentulotukea. Aihetta on tarkasteltu laajemmin ...<a href="https://tutkimusblogi.kela.fi/arkisto/5568"> Lue lisää</a></i-->
 </dd></dl>
 <!--a href = "https://tutkimusblogi.kela.fi/avainsanat/laakkeet">Lue lisää Kelan tutkimusblogista</a-->
-            </div>
+</div>
 <div class = "col-sm-6"><img src = "https://www.fimea.fi/o/fimea-theme/images/logo/fimea-logo.svg" height  = "30px"><div style = "padding-top: 10px;"></div><h5>Ajankohtaista Fimeasta</h5>
 <dl class="row">
 <dd class="col-sm-12"><div class = "yellow-line">2021-11-26</div>
@@ -174,9 +174,9 @@ plot(cars)
 <!--i>Eläinten antibiootteja myytiin Suomessa vuonna 2020 vähemmän kuin koskaan aikaisemmin. Maltillinen antibioottikäyttö näkyy myös eläinten bakteerien resistenssituloksissa, mikä selviää Ruokaviraston, Fimean ja Helsingin yliopiston yhteisestä FINRES-Vet 2020 -raportista.Lue lisää:Ruokaviraston uutinen: Antibioottien käyttö eläimille vähentynyt edelleenFinres vet 2020 -raporttiMuut Finres vet -raportit Ruokaviraston verkkosivullatrueKatariina Kivilahti-Mäntylä, eläinlääkäri, p. 029 522 3354Sähköpostiosoitteet ovat muotoa etunimi.sukunimi@fimea.fi<a href="http://www.fimea.fi/web/guest/-/antibioottien-kaytto-elaimille-vahentynyt-edelleen"> Lue lisää</a></i-->
 </dd></dl>
 <!--a href = "https://www.fimea.fi/tietoa_fimeasta/ajankohtaista/uutiset">Lue lisää Fimean kotisivuilta</a-->
-            </div>
+</div>
 </dl>
-            <hr>
+<hr>
 <!--dynamic_content01_ends-->
 
 
@@ -220,29 +220,29 @@ Siirry lääketilastoon<i class="bi-chevron-right"></i>
 <hr>
 <div style = "padding: 30px"></div>
 <h2 id = "sovellukset">Verkkosovellukset</h2>
-      <div class="row">
-        <div class="col-sm-6">
-            <div class="card" style="width: 90%;">
-                <a href="https://kelaresearchandanalytics.shinyapps.io/korona_atc_app/" title="Avaa sovellus"><img class="card-img-top" src="./tita_app003.PNG" width="100%"></a>
-                <!--img class="card-img-top" src="tita_app003.PNG" alt="Card image cap"-->
-                <div class="card-body">
-                    <a class = "laake-link" href="https://kelaresearchandanalytics.shinyapps.io/korona_atc_app/" title="Avaa sovellus"><h5 class="card-title">Reseptilääkkeiden ostot ATC-luokittain<i class="bi-chevron-right"></i></h5></a>
-                  <p class="card-text">Voit verrata sairausvakuutuksesta korvattavien reseptilääkkeiden kustannuksia, ostomääriä ja ostajien määriä viikkotasolla vuosien 2019-2021 välillä ATC-luokituksen tasoilla 1-5..</p>
-                </div>
-              </div>
-        </div>
-        <div class="col-sm-6">
-            <div class="card" style="width: 90%;">
-                <a class = "laake-link" href="https://ropengov.shinyapps.io/tilastot_kartalle/" title="Avaa sovellus uuteen välilehteen"><img class="card-img-top" src="./tita_app005.PNG" width="100%"></a>
-                <div class="card-body">
-                    <a class = "laake-link" href="https://kelaresearchandanalytics.shinyapps.io/korona_atc_app/" title="Avaa sovellus"><h5 class="card-title">Avo- ja laitoshoidon lääkekustannusten kasvu ja lasku lääkeaineittain<i class="bi-chevron-right"></i></h5></a>
-                  <p class="card-text">Sovelluksen avulla voit verrata avo- ja laitoshoidossa käytettävistä lääkkeistä niitä, joiden lääkekustannukset ovat kasvaneet tai laskeneet eniten koko maassa ja sairaanhoitopiireittäin.</p>
-                </div>
-              </div>
-        </div>
-        </div>
+<div class="row">
+<div class="col-sm-6">
+<div class="card" style="width: 90%;">
+<a href="https://kelaresearchandanalytics.shinyapps.io/korona_atc_app/" title="Avaa sovellus"><img class="card-img-top" src="./tita_app003.PNG" width="100%"></a>
+<!--img class="card-img-top" src="tita_app003.PNG" alt="Card image cap"-->
+<div class="card-body">
+    <a class = "laake-link" href="https://kelaresearchandanalytics.shinyapps.io/korona_atc_app/" title="Avaa sovellus"><h5 class="card-title">Reseptilääkkeiden ostot ATC-luokittain<i class="bi-chevron-right"></i></h5></a>
+  <p class="card-text">Voit verrata sairausvakuutuksesta korvattavien reseptilääkkeiden kustannuksia, ostomääriä ja ostajien määriä viikkotasolla vuosien 2019-2021 välillä ATC-luokituksen tasoilla 1-5..</p>
+</div>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="card" style="width: 90%;">
+<a class = "laake-link" href="https://ropengov.shinyapps.io/tilastot_kartalle/" title="Avaa sovellus uuteen välilehteen"><img class="card-img-top" src="./tita_app005.PNG" width="100%"></a>
+<div class="card-body">
+    <a class = "laake-link" href="https://kelaresearchandanalytics.shinyapps.io/korona_atc_app/" title="Avaa sovellus"><h5 class="card-title">Avo- ja laitoshoidon lääkekustannusten kasvu ja lasku lääkeaineittain<i class="bi-chevron-right"></i></h5></a>
+  <p class="card-text">Sovelluksen avulla voit verrata avo- ja laitoshoidossa käytettävistä lääkkeistä niitä, joiden lääkekustannukset ovat kasvaneet tai laskeneet eniten koko maassa ja sairaanhoitopiireittäin.</p>
+</div>
+</div>
+</div>
+</div>
 
-        <div style = "padding: 50px"></div>
+<div style = "padding: 50px"></div>
 
 </div>
 </div>
