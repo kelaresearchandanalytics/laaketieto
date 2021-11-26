@@ -9,11 +9,11 @@ output:
 
 
 
-## Kelan koronamittarit -verkkopalvelun tietosuojaseloste
+## Kelan laaketieto.kela.fi -verkkopalvelun tietosuojaseloste
 
-Tämä tietosuojaseloste koskee kaikille avointa *Kelan koronamittarit* -verkkopalvelua osoiteessa: [koronamittarit.kela.fi](https://koronamittarit.kela.fi). Tässä tietosuojaselosteessa kuvataan, miten Kela käsittelee rekisterinpitäjänä verkkopalvelun käyttäjiä koskevaa tietoa.
+Tämä tietosuojaseloste koskee kaikille avointa *laaketieto.kela.fi* -verkkopalvelua osoitteessa: [laaketieto.kela.fi](https://koronamittarit.kela.fi). Tässä tietosuojaselosteessa kuvataan, miten Kela käsittelee rekisterinpitäjänä verkkopalvelun käyttäjiä koskevaa tietoa.
 
-*Kelan koronamittarit* -palvelun tuotannosta ja ylläpidosta vastaa Kela. Kela on sitoutunut suojaamaan verkkopalvelun käyttäjien sekä asiakkaidensa yksityisyyttä. Evästeiden avulla kerätään tietoa siitä, miten ja milloin Kelan sivustoa käytetään. Tämä tietosuojaseloste kuvaa evästekäytännöt *Kelan koronamittarit* -palvelussa.
+*laaketieto.kela.fi* -palvelun tuotannosta ja ylläpidosta vastaa Kela. Kela on sitoutunut suojaamaan verkkopalvelun käyttäjien sekä asiakkaidensa yksityisyyttä. Evästeiden avulla kerätään tietoa siitä, miten ja milloin Kelan sivustoa käytetään. Tämä tietosuojaseloste kuvaa evästekäytännöt *laaketieto.kela.fi* -palvelussa.
   
 ### Yhteystiedot
 
@@ -27,9 +27,9 @@ Tietosuojavastaava: tietosuoja@kela.fi
   
 ### Mitä evästeet ovat, mitä tietoja niillä kerätään ja mihin evästeiden tietoja käytetään?
 
-Kuten monessa muussa verkkopalvelussa *Kelan koronamittarit* -verkkopalvelussa käytetään evästeitä. Eväste on tekstitiedosto, joka tallentuu käyttäjän päätelaitteelle ja tallentaa tietoa käynnistä *Kelan koronamittarit* -verkkopalvelussa.   
+Kuten monessa muussa verkkopalvelussa *laaketieto.kela.fi* -verkkopalvelussa käytetään evästeitä. Eväste on tekstitiedosto, joka tallentuu käyttäjän päätelaitteelle ja tallentaa tietoa käynnistä *laaketieto.kela.fi* -verkkopalvelussa.   
 
-*Kelan koronamittarit* -verkkopalvelussa evästeiden avulla kerätään tietoa esimerkiksi siitä,  
+*laaketieto.kela.fi* -verkkopalvelussa evästeiden avulla kerätään tietoa esimerkiksi siitä,  
 
 - kuinka paljon verkkopalvelussa on käyttäjiä  
 - millä päätelaitteilla verkkopalvelua on käytetty  
@@ -37,7 +37,7 @@ Kuten monessa muussa verkkopalvelussa *Kelan koronamittarit* -verkkopalvelussa k
 
 Evästeet tallentavat automaattisesti verkkopalvelussa käyneiden käyttäjien tekemät sivupyynnöt. Tiedot sisältävät yleensä käyttäjän tekemän verkkopyynnön, pyynnön päivämäärän ja ajan, käyttäjän päätelaitteen IP-osoitteen sekä selaimen tyypin ja kielen.
   
-*Kelan koronamittarit* -verkkopalvelussa on käytössä ainoastaan *kävijämittaus- ja analytiikkaevästeet*, joita kerätään verkkoanalytiikkatyökalu Piwik Pro:lla. Tietoja kerätään, jotta voidaan analysoida kävijämääriä, sisällön kiinnostavuutta ja palvelun käyttötapoja sekä kehittää verkkosivustoa. Piwik Pro –työkalulle ei pyydetä käyttäjältä suostumusta, mutta käyttäjä voi kuitenkin estää Piwik Pron evästeiden käyttämisen oman selaimensa asetuksista.
+*laaketieto.kela.fi* -verkkopalvelussa on käytössä ainoastaan *kävijämittaus- ja analytiikkaevästeet*, joita kerätään verkkoanalytiikkatyökalu Piwik Pro:lla. Tietoja kerätään, jotta voidaan analysoida kävijämääriä, sisällön kiinnostavuutta ja palvelun käyttötapoja sekä kehittää verkkosivustoa. Piwik Pro –työkalulle ei pyydetä käyttäjältä suostumusta, mutta käyttäjä voi kuitenkin estää Piwik Pron evästeiden käyttämisen oman selaimensa asetuksista.
 
 ### Mikä on tietojan säilytysaika ja miten tiedot suojataan?
 
@@ -52,7 +52,7 @@ Piwik Pro -analytiikkatyökalussa on huolehdittu kävijöiden tietosuojasta seur
 
 ### Voidaanko tietosuojaselosteeseen tehdä muutoksia?
 
-Kela voi tehdä ajoittain muutoksia näihin evästekäytäntöihin, jos tämä on perusteltua esimerkiksi käsittelyn tarkoituksen tai viranomaissuositusten tai lainsäädännön muuttuessa. Muutoksista tiedotetaan *Kelan koronamittarit* -verkkopalvelussa  
-EU:n yleiseen tietosuoja-asetukseen perustuva *Kelan koronamittarit* -palvelun tietosuojaseloste on julkaistu 22.9.2020.   
+Kela voi tehdä ajoittain muutoksia näihin evästekäytäntöihin, jos tämä on perusteltua esimerkiksi käsittelyn tarkoituksen tai viranomaissuositusten tai lainsäädännön muuttuessa. Muutoksista tiedotetaan *laaketieto.kela.fi* -verkkopalvelussa  
+EU:n yleiseen tietosuoja-asetukseen perustuva *laaketieto.kela.fi* -palvelun tietosuojaseloste on julkaistu 1.12.2021.   
 
-Sivua päivitetty 22.9.2020
+Sivua päivitetty 1.12.2021

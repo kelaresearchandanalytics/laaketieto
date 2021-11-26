@@ -8,7 +8,7 @@ output:
 ---
 
 
-## Tervetuloa, tämä on Kelan [koronamittarit](https://koronamittarit.kela.fi)-sivuston saavutettavuusseloste
+## Tervetuloa, tämä on Kelan [laaketieto.kela.fi](https://laaketieto.kela.fi)-sivuston saavutettavuusseloste
 
 
 Tämä saavutettavuusseloste koskee Koronamittarit-sivustoa osoitteessa: https://koronamittarit.kela.fi ja on päivitetty 21.09.2020.
