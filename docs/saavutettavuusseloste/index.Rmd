@@ -1,0 +1,47 @@
+---
+title: "Saavutettavuusseloste"
+editor_options: 
+  chunk_output_type: console
+output:
+  html_document:
+    toc: false
+---
+
+
+## Tervetuloa, tämä on Kelan [koronamittarit](https://koronamittarit.kela.fi)-sivuston saavutettavuusseloste
+
+
+Tämä saavutettavuusseloste koskee Koronamittarit-sivustoa osoitteessa: https://koronamittarit.kela.fi ja on päivitetty 21.09.2020.
+
+Olemme arvioineet palvelun saavutettavuuden itse.
+
+## Miten saavutettava verkkopalvelu on?
+
+Palvelu täyttää saavutettavuusvaatimukset osittain (WCAG-kriteeristö 2.1, A- ja AA-taso).
+
+## Sisällöt, jotka eivät ole saavutettavia
+
+Käyttäjät saattavat edelleen kohdata sivustolla joitakin saavutettavuusongelmia. Seuraavana on luettelo ongelmista, jotka ovat tiedossamme. Jos huomaat sivustolla ongelman, joka ei ole luettelossa, ilmoitathan siitä meille.
+
+* Sivuston tilastografiikan värikontrasteissa on joitakin puutteita (WCAG 1.4.1, 1.4.3 ja 1.4.11)
+* Sivuston tilastografiikassa käytetään ainoastaan väriä erottelemaan sarjoja toisistaan, ei symboleja (WCAG 1.4.1, 1.4.3 ja 1.4.11)
+* Sivuston kuvioiden sanalliset tulkinnat eli tekstivastineet ovat puutteellisia. Haasteena mm. se että kuviot automaattisesti päivittyvät joka arkipäivä, jolloin täsmällisten ja oikeasisältöisten tekstivastineiden automatisointi on haastavaa. (WCAG 1.1.1)
+
+## Huomasitko saavutettavuuspuutteen digipalvelussamme?
+
+Kerro se meille ja teemme parhaamme puutteen korjaamiseksi
+
+- verkkolomakkeella: [beta.kela.fi/saavutettavuuspalaute/](https://beta.kela.fi/saavutettavuuspalaute/)
+
+## Valvontaviranomainen
+
+Jos huomaat sivustolla saavutettavuusongelmia, anna ensin palautetta meille eli sivuston ylläpitäjälle. Vastauksessa voi mennä 14 päivää. Jos et ole tyytyväinen saamaasi vastaukseen tai et saa vastausta lainkaan kahden viikon aikana, [voit tehdä ilmoituksen Etelä-Suomen aluehallintovirastoon](https://www.saavutettavuusvaatimukset.fi/oikeutesi/). Etelä-Suomen aluehallintoviraston sivulla kerrotaan tarkasti, miten ilmoituksen voi tehdä ja miten asia käsitellään.
+
+## Valvontaviranomaisen yhteystiedot
+
+
+Etelä-Suomen aluehallintovirasto  
+Saavutettavuuden valvonnan yksikkö  
+www.saavutettavuusvaatimukset.fi  
+saavutettavuus(at)avi.fi  
+puhelinnumero vaihde 0295 016 000

@@ -87,5 +87,157 @@ Figure 1: A fancy pie chart.
 </description>
     </item>
     
+    <item>
+      <title>Saavutettavuusseloste</title>
+      <link>https://laaketieto.kela.fi/saavutettavuusseloste/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://laaketieto.kela.fi/saavutettavuusseloste/</guid>
+      <description>
+&lt;script src=&#34;https://laaketieto.kela.fi/saavutettavuusseloste/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;tervetuloa-tämä-on-kelan-koronamittarit-sivuston-saavutettavuusseloste&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Tervetuloa, tämä on Kelan &lt;a href=&#34;https://koronamittarit.kela.fi&#34;&gt;koronamittarit&lt;/a&gt;-sivuston saavutettavuusseloste&lt;/h2&gt;
+&lt;p&gt;Tämä saavutettavuusseloste koskee Koronamittarit-sivustoa osoitteessa: &lt;a href=&#34;https://koronamittarit.kela.fi&#34; class=&#34;uri&#34;&gt;https://koronamittarit.kela.fi&lt;/a&gt; ja on päivitetty 21.09.2020.&lt;/p&gt;
+&lt;p&gt;Olemme arvioineet palvelun saavutettavuuden itse.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;miten-saavutettava-verkkopalvelu-on&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Miten saavutettava verkkopalvelu on?&lt;/h2&gt;
+&lt;p&gt;Palvelu täyttää saavutettavuusvaatimukset osittain (WCAG-kriteeristö 2.1, A- ja AA-taso).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;sisällöt-jotka-eivät-ole-saavutettavia&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Sisällöt, jotka eivät ole saavutettavia&lt;/h2&gt;
+&lt;p&gt;Käyttäjät saattavat edelleen kohdata sivustolla joitakin saavutettavuusongelmia. Seuraavana on luettelo ongelmista, jotka ovat tiedossamme. Jos huomaat sivustolla ongelman, joka ei ole luettelossa, ilmoitathan siitä meille.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sivuston tilastografiikan värikontrasteissa on joitakin puutteita (WCAG 1.4.1, 1.4.3 ja 1.4.11)&lt;/li&gt;
+&lt;li&gt;Sivuston tilastografiikassa käytetään ainoastaan väriä erottelemaan sarjoja toisistaan, ei symboleja (WCAG 1.4.1, 1.4.3 ja 1.4.11)&lt;/li&gt;
+&lt;li&gt;Sivuston kuvioiden sanalliset tulkinnat eli tekstivastineet ovat puutteellisia. Haasteena mm. se että kuviot automaattisesti päivittyvät joka arkipäivä, jolloin täsmällisten ja oikeasisältöisten tekstivastineiden automatisointi on haastavaa. (WCAG 1.1.1)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;huomasitko-saavutettavuuspuutteen-digipalvelussamme&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Huomasitko saavutettavuuspuutteen digipalvelussamme?&lt;/h2&gt;
+&lt;p&gt;Kerro se meille ja teemme parhaamme puutteen korjaamiseksi&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;verkkolomakkeella: &lt;a href=&#34;https://beta.kela.fi/saavutettavuuspalaute/&#34;&gt;beta.kela.fi/saavutettavuuspalaute/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;valvontaviranomainen&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Valvontaviranomainen&lt;/h2&gt;
+&lt;p&gt;Jos huomaat sivustolla saavutettavuusongelmia, anna ensin palautetta meille eli sivuston ylläpitäjälle. Vastauksessa voi mennä 14 päivää. Jos et ole tyytyväinen saamaasi vastaukseen tai et saa vastausta lainkaan kahden viikon aikana, &lt;a href=&#34;https://www.saavutettavuusvaatimukset.fi/oikeutesi/&#34;&gt;voit tehdä ilmoituksen Etelä-Suomen aluehallintovirastoon&lt;/a&gt;. Etelä-Suomen aluehallintoviraston sivulla kerrotaan tarkasti, miten ilmoituksen voi tehdä ja miten asia käsitellään.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;valvontaviranomaisen-yhteystiedot&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Valvontaviranomaisen yhteystiedot&lt;/h2&gt;
+&lt;p&gt;Etelä-Suomen aluehallintovirasto&lt;br /&gt;
+Saavutettavuuden valvonnan yksikkö&lt;br /&gt;
+www.saavutettavuusvaatimukset.fi&lt;br /&gt;
+saavutettavuus(at)avi.fi&lt;br /&gt;
+puhelinnumero vaihde 0295 016 000&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tietosuojaseloste</title>
+      <link>https://laaketieto.kela.fi/tietosuojaseloste/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://laaketieto.kela.fi/tietosuojaseloste/</guid>
+      <description>
+&lt;script src=&#34;https://laaketieto.kela.fi/tietosuojaseloste/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;kelan-koronamittarit--verkkopalvelun-tietosuojaseloste&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Kelan koronamittarit -verkkopalvelun tietosuojaseloste&lt;/h2&gt;
+&lt;p&gt;Tämä tietosuojaseloste koskee kaikille avointa &lt;em&gt;Kelan koronamittarit&lt;/em&gt; -verkkopalvelua osoiteessa: &lt;a href=&#34;https://koronamittarit.kela.fi&#34;&gt;koronamittarit.kela.fi&lt;/a&gt;. Tässä tietosuojaselosteessa kuvataan, miten Kela käsittelee rekisterinpitäjänä verkkopalvelun käyttäjiä koskevaa tietoa.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Kelan koronamittarit&lt;/em&gt; -palvelun tuotannosta ja ylläpidosta vastaa Kela. Kela on sitoutunut suojaamaan verkkopalvelun käyttäjien sekä asiakkaidensa yksityisyyttä. Evästeiden avulla kerätään tietoa siitä, miten ja milloin Kelan sivustoa käytetään. Tämä tietosuojaseloste kuvaa evästekäytännöt &lt;em&gt;Kelan koronamittarit&lt;/em&gt; -palvelussa.&lt;/p&gt;
+&lt;div id=&#34;yhteystiedot&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Yhteystiedot&lt;/h3&gt;
+&lt;p&gt;Kansaneläkelaitos (Kela)&lt;br /&gt;
+PL 450, 00101 Helsinki tai Nordenskiöldinkatu 12, 0250 Helsinki&lt;br /&gt;
+puhelin 020 634 11&lt;br /&gt;
+www.kela.fi/yhteystiedot-hallinto&lt;/p&gt;
+&lt;p&gt;Yhteyshenkilö:&lt;br /&gt;
+Tietosuojavastaava: &lt;a href=&#34;mailto:tietosuoja@kela.fi&#34; class=&#34;email&#34;&gt;tietosuoja@kela.fi&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;mitä-evästeet-ovat-mitä-tietoja-niillä-kerätään-ja-mihin-evästeiden-tietoja-käytetään&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Mitä evästeet ovat, mitä tietoja niillä kerätään ja mihin evästeiden tietoja käytetään?&lt;/h3&gt;
+&lt;p&gt;Kuten monessa muussa verkkopalvelussa &lt;em&gt;Kelan koronamittarit&lt;/em&gt; -verkkopalvelussa käytetään evästeitä. Eväste on tekstitiedosto, joka tallentuu käyttäjän päätelaitteelle ja tallentaa tietoa käynnistä &lt;em&gt;Kelan koronamittarit&lt;/em&gt; -verkkopalvelussa.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Kelan koronamittarit&lt;/em&gt; -verkkopalvelussa evästeiden avulla kerätään tietoa esimerkiksi siitä,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;kuinka paljon verkkopalvelussa on käyttäjiä&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;millä päätelaitteilla verkkopalvelua on käytetty&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;mistä verkko-osoitteesta verkkopalvelun käyttäjät ovat saapuneet verkkopalveluun&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Evästeet tallentavat automaattisesti verkkopalvelussa käyneiden käyttäjien tekemät sivupyynnöt. Tiedot sisältävät yleensä käyttäjän tekemän verkkopyynnön, pyynnön päivämäärän ja ajan, käyttäjän päätelaitteen IP-osoitteen sekä selaimen tyypin ja kielen.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Kelan koronamittarit&lt;/em&gt; -verkkopalvelussa on käytössä ainoastaan &lt;em&gt;kävijämittaus- ja analytiikkaevästeet&lt;/em&gt;, joita kerätään verkkoanalytiikkatyökalu Piwik Pro:lla. Tietoja kerätään, jotta voidaan analysoida kävijämääriä, sisällön kiinnostavuutta ja palvelun käyttötapoja sekä kehittää verkkosivustoa. Piwik Pro –työkalulle ei pyydetä käyttäjältä suostumusta, mutta käyttäjä voi kuitenkin estää Piwik Pron evästeiden käyttämisen oman selaimensa asetuksista.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;mikä-on-tietojan-säilytysaika-ja-miten-tiedot-suojataan&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Mikä on tietojan säilytysaika ja miten tiedot suojataan?&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Kelan koronamittarit&lt;/em&gt; -verkkopalvelussa käytetään niin kutsuttuja istuntoevästeitä ja pysyviä evästeitä. Istuntoevästeet tuhoutuvat automaattisesti, kun selain suljetaan. Pysyvät evästeet säilyvät päätelaitteella, kunnes ne erikseen poistetaan tai niiden voimassaolo päättyy. &lt;em&gt;Kelan koronamittarit&lt;/em&gt; -sivustolla käytetyn Piwik Pro:n kävijämittaus- ja analytiikkaevästeet säilytetään tyypillisesti 36 kuukautta. Käyttäjä voi vaikuttaa evästeillä kerättyjen tietojen säilytysaikaan tyhjentämällä evästeet selaimen asetusten avulla, jolloin aiempi evästeprofiili nollautuu.&lt;/p&gt;
+&lt;p&gt;Piwik Pro -analytiikkatyökalussa on huolehdittu kävijöiden tietosuojasta seuraavasti:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Piwik Pro -analytiikkatyökalu tallentaa vain anonymisoitua dataa. Koska tieto käyttäjästä on anonymisoitu, sitä ei voi käyttää enää henkilötietona eikä sitä voi toisiin tietoihin yhdistämälläkään enää yhdistää tiettyyn henkilöön. Tunnistaminen on näin estetty peruuttamattomasti.&lt;/li&gt;
+&lt;li&gt;Käyttäjiä ei voida tunnistaa IP:n tai sijainnin perusteella. Myös ns. sormenjälkitunnistus on pois päältä.&lt;/li&gt;
+&lt;li&gt;Data anonymisoidaan GDPR-asetusten vaatimalla tavalla: IP-osoitteista poistetaan kaksi viimeistä segmenttiä, ja sijaintitietoja tarkastellaan vain yleisellä tasolla&lt;/li&gt;
+&lt;li&gt;Piwik Prosta lähtevä eväste on Kelan omalla domainilla ja palvelimella. Anonymisoitu data tallentuu Kelan sopimuskumppanin Fujitsun järjestelmään.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;voidaanko-tietosuojaselosteeseen-tehdä-muutoksia&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Voidaanko tietosuojaselosteeseen tehdä muutoksia?&lt;/h3&gt;
+&lt;p&gt;Kela voi tehdä ajoittain muutoksia näihin evästekäytäntöihin, jos tämä on perusteltua esimerkiksi käsittelyn tarkoituksen tai viranomaissuositusten tai lainsäädännön muuttuessa. Muutoksista tiedotetaan &lt;em&gt;Kelan koronamittarit&lt;/em&gt; -verkkopalvelussa&lt;br /&gt;
+EU:n yleiseen tietosuoja-asetukseen perustuva &lt;em&gt;Kelan koronamittarit&lt;/em&gt; -palvelun tietosuojaseloste on julkaistu 22.9.2020.&lt;/p&gt;
+&lt;p&gt;Sivua päivitetty 22.9.2020&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Yhteystiedot</title>
+      <link>https://laaketieto.kela.fi/yhteystiedot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://laaketieto.kela.fi/yhteystiedot/</guid>
+      <description>
+&lt;script src=&#34;https://laaketieto.kela.fi/yhteystiedot/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div class=&#34;row&#34;&gt;
+&lt;div class=&#34;col-md-4&#34;&gt;
+&lt;div class=&#34;card border-primary mb-3&#34; style=&#34;max-width: 30rem;&#34;&gt;
+&lt;div class=&#34;card-header&#34;&gt;
+Signe Jauhiainen, tutkimuspäällikkö
+&lt;/div&gt;
+&lt;div class=&#34;card-body&#34;&gt;
+&lt;p class=&#34;card-text&#34;&gt;
+050 331 3982
+&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;mailto:signe.jauhiainen@kela.fi?subject=Koronamittarit2020&#34;&gt;signe.jauhiainen@kela.fi&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;col-md-4&#34;&gt;
+&lt;div class=&#34;card border-primary mb-3&#34; style=&#34;max-width: 30rem;&#34;&gt;
+&lt;div class=&#34;card-header&#34;&gt;
+Sami Tuori, tilastoasiantuntija
+&lt;/div&gt;
+&lt;div class=&#34;card-body&#34;&gt;
+&lt;p class=&#34;card-text&#34;&gt;
+020 634 1887
+&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;mailto:sami.tuori@kela.fi?subject=Koronamittarit2020&#34;&gt;sami.tuori@kela.fi&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;col-md-4&#34;&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,43 @@
+---
+title: "Yhteystiedot"
+editor_options: 
+  chunk_output_type: console
+output:
+  html_document:
+    toc: false
+---
+
+
+<div class="row">
+<div class="col-md-4">
+
+<div class="card border-primary mb-3" style="max-width: 30rem;">
+<div class="card-header">Signe Jauhiainen, tutkimuspäällikkö</div>
+<div class="card-body">
+<p class="card-text">050 331 3982</p>
+<a href="mailto:signe.jauhiainen@kela.fi?subject=Koronamittarit2020">signe.jauhiainen@kela.fi</a>
+
+</div>
+</div>        
+
+</div>
+<div class="col-md-4">
+
+<div class="card border-primary mb-3" style="max-width: 30rem;">
+<div class="card-header">Sami Tuori, tilastoasiantuntija</div>
+<div class="card-body">
+<p class="card-text">020 634 1887</p>
+<a href="mailto:sami.tuori@kela.fi?subject=Koronamittarit2020">sami.tuori@kela.fi</a>
+</div>
+</div>
+
+</div>
+<div class="col-md-4">
+
+
+</div>
+</div>
+
+
+
+
