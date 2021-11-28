@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Etusivu on Kulutustietoa lääkkeistä</title>
+    <title>Etusivu on laaketieto.kela.fi</title>
     <link>https://laaketieto.kela.fi/</link>
-    <description>Recent content in Etusivu on Kulutustietoa lääkkeistä</description>
+    <description>Recent content in Etusivu on laaketieto.kela.fi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 09 Nov 2020 19:55:24 +0200</lastBuildDate><atom:link href="https://laaketieto.kela.fi/index.xml" rel="self" type="application/rss+xml" />
@@ -1677,7 +1677,7 @@ puhelinnumero vaihde 0295 016 000&lt;/p&gt;
 
 &lt;div id=&#34;kelan-laaketieto.kela.fi--verkkopalvelun-tietosuojaseloste&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Kelan laaketieto.kela.fi -verkkopalvelun tietosuojaseloste&lt;/h2&gt;
-&lt;p&gt;Tämä tietosuojaseloste koskee kaikille avointa &lt;em&gt;laaketieto.kela.fi&lt;/em&gt; -verkkopalvelua osoitteessa: &lt;a href=&#34;https://koronamittarit.kela.fi&#34;&gt;laaketieto.kela.fi&lt;/a&gt;. Tässä tietosuojaselosteessa kuvataan, miten Kela käsittelee rekisterinpitäjänä verkkopalvelun käyttäjiä koskevaa tietoa.&lt;/p&gt;
+&lt;p&gt;Tämä tietosuojaseloste koskee kaikille avointa &lt;em&gt;laaketieto.kela.fi&lt;/em&gt; -verkkopalvelua osoitteessa: &lt;a href=&#34;https://laaketieto.kela.fi&#34;&gt;laaketieto.kela.fi&lt;/a&gt;. Tässä tietosuojaselosteessa kuvataan, miten Kela käsittelee rekisterinpitäjänä verkkopalvelun käyttäjiä koskevaa tietoa.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;laaketieto.kela.fi&lt;/em&gt; -palvelun tuotannosta ja ylläpidosta vastaa Kela. Kela on sitoutunut suojaamaan verkkopalvelun käyttäjien sekä asiakkaidensa yksityisyyttä. Evästeiden avulla kerätään tietoa siitä, miten ja milloin Kelan sivustoa käytetään. Tämä tietosuojaseloste kuvaa evästekäytännöt &lt;em&gt;laaketieto.kela.fi&lt;/em&gt; -palvelussa.&lt;/p&gt;
 &lt;div id=&#34;yhteystiedot&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Yhteystiedot&lt;/h3&gt;
@@ -1704,7 +1704,7 @@ Tietosuojavastaava: &lt;a href=&#34;mailto:tietosuoja@kela.fi&#34; class=&#34;em
 &lt;/div&gt;
 &lt;div id=&#34;mikä-on-tietojan-säilytysaika-ja-miten-tiedot-suojataan&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Mikä on tietojan säilytysaika ja miten tiedot suojataan?&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Kelan koronamittarit&lt;/em&gt; -verkkopalvelussa käytetään niin kutsuttuja istuntoevästeitä ja pysyviä evästeitä. Istuntoevästeet tuhoutuvat automaattisesti, kun selain suljetaan. Pysyvät evästeet säilyvät päätelaitteella, kunnes ne erikseen poistetaan tai niiden voimassaolo päättyy. &lt;em&gt;Kelan koronamittarit&lt;/em&gt; -sivustolla käytetyn Piwik Pro:n kävijämittaus- ja analytiikkaevästeet säilytetään tyypillisesti 36 kuukautta. Käyttäjä voi vaikuttaa evästeillä kerättyjen tietojen säilytysaikaan tyhjentämällä evästeet selaimen asetusten avulla, jolloin aiempi evästeprofiili nollautuu.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;laaketieto.kela.fi&lt;/em&gt; -verkkopalvelussa käytetään niin kutsuttuja istuntoevästeitä ja pysyviä evästeitä. Istuntoevästeet tuhoutuvat automaattisesti, kun selain suljetaan. Pysyvät evästeet säilyvät päätelaitteella, kunnes ne erikseen poistetaan tai niiden voimassaolo päättyy. &lt;em&gt;laaketieto.kela.fi&lt;/em&gt; -sivustolla käytetyn Piwik Pro:n kävijämittaus- ja analytiikkaevästeet säilytetään tyypillisesti 36 kuukautta. Käyttäjä voi vaikuttaa evästeillä kerättyjen tietojen säilytysaikaan tyhjentämällä evästeet selaimen asetusten avulla, jolloin aiempi evästeprofiili nollautuu.&lt;/p&gt;
 &lt;p&gt;Piwik Pro -analytiikkatyökalussa on huolehdittu kävijöiden tietosuojasta seuraavasti:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Piwik Pro -analytiikkatyökalu tallentaa vain anonymisoitua dataa. Koska tieto käyttäjästä on anonymisoitu, sitä ei voi käyttää enää henkilötietona eikä sitä voi toisiin tietoihin yhdistämälläkään enää yhdistää tiettyyn henkilöön. Tunnistaminen on näin estetty peruuttamattomasti.&lt;/li&gt;

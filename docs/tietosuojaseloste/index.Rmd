@@ -11,7 +11,7 @@ output:
 
 ## Kelan laaketieto.kela.fi -verkkopalvelun tietosuojaseloste
 
-Tämä tietosuojaseloste koskee kaikille avointa *laaketieto.kela.fi* -verkkopalvelua osoitteessa: [laaketieto.kela.fi](https://koronamittarit.kela.fi). Tässä tietosuojaselosteessa kuvataan, miten Kela käsittelee rekisterinpitäjänä verkkopalvelun käyttäjiä koskevaa tietoa.
+Tämä tietosuojaseloste koskee kaikille avointa *laaketieto.kela.fi* -verkkopalvelua osoitteessa: [laaketieto.kela.fi](https://laaketieto.kela.fi). Tässä tietosuojaselosteessa kuvataan, miten Kela käsittelee rekisterinpitäjänä verkkopalvelun käyttäjiä koskevaa tietoa.
 
 *laaketieto.kela.fi* -palvelun tuotannosta ja ylläpidosta vastaa Kela. Kela on sitoutunut suojaamaan verkkopalvelun käyttäjien sekä asiakkaidensa yksityisyyttä. Evästeiden avulla kerätään tietoa siitä, miten ja milloin Kelan sivustoa käytetään. Tämä tietosuojaseloste kuvaa evästekäytännöt *laaketieto.kela.fi* -palvelussa.
   
@@ -41,7 +41,7 @@ Evästeet tallentavat automaattisesti verkkopalvelussa käyneiden käyttäjien t
 
 ### Mikä on tietojan säilytysaika ja miten tiedot suojataan?
 
-*Kelan koronamittarit* -verkkopalvelussa käytetään niin kutsuttuja istuntoevästeitä ja pysyviä evästeitä. Istuntoevästeet tuhoutuvat automaattisesti, kun selain suljetaan. Pysyvät evästeet säilyvät päätelaitteella, kunnes ne erikseen poistetaan tai niiden voimassaolo päättyy.   *Kelan koronamittarit* -sivustolla käytetyn Piwik Pro:n kävijämittaus- ja analytiikkaevästeet säilytetään tyypillisesti 36 kuukautta. Käyttäjä voi vaikuttaa evästeillä kerättyjen tietojen säilytysaikaan tyhjentämällä evästeet selaimen asetusten avulla, jolloin aiempi evästeprofiili nollautuu.
+*laaketieto.kela.fi* -verkkopalvelussa käytetään niin kutsuttuja istuntoevästeitä ja pysyviä evästeitä. Istuntoevästeet tuhoutuvat automaattisesti, kun selain suljetaan. Pysyvät evästeet säilyvät päätelaitteella, kunnes ne erikseen poistetaan tai niiden voimassaolo päättyy.   *laaketieto.kela.fi* -sivustolla käytetyn Piwik Pro:n kävijämittaus- ja analytiikkaevästeet säilytetään tyypillisesti 36 kuukautta. Käyttäjä voi vaikuttaa evästeillä kerättyjen tietojen säilytysaikaan tyhjentämällä evästeet selaimen asetusten avulla, jolloin aiempi evästeprofiili nollautuu.
 
 Piwik Pro -analytiikkatyökalussa on huolehdittu kävijöiden tietosuojasta seuraavasti: 
 
