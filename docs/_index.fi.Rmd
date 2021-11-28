@@ -28,9 +28,9 @@ plot(cars)
  </div>
  <div class="col-sm-6">
   <div class="card" style="width: 90%;">
-  <a class = "laake-link" href="https://ropengov.shinyapps.io/tilastot_kartalle/" title="Avaa sovellus uuteen välilehteen"><img class="card-img-top" src="img_app02.PNG" width="100%"></a>
+  <a class = "laake-link" href="https://kelaresearchandanalytics.shinyapps.io/kela_fimea_kallis/" title="Avaa sovellus uuteen välilehteen"><img class="card-img-top" src="img_app02.PNG" width="100%"></a>
   <div class="card-body">
-  <a class = "laake-link" href="https://kelaresearchandanalytics.shinyapps.io/korona_atc_app/" title="Avaa sovellus"><h5 class="card-title">Avo- ja laitoshoidon lääkekustannusten kasvu ja lasku lääkeaineittain<i class="bi-chevron-right"></i></h5></a>
+  <a class = "laake-link" href="https://kelaresearchandanalytics.shinyapps.io/kela_fimea_kallis/" title="Avaa sovellus"><h5 class="card-title">Avo- ja laitoshoidon lääkekustannusten kasvu ja lasku lääkeaineittain<i class="bi-chevron-right"></i></h5></a>
   <p class="card-text">Sovelluksen avulla voit verrata avo- ja laitoshoidossa käytettävistä lääkkeistä niitä, joiden lääkekustannukset ovat kasvaneet tai laskeneet eniten koko maassa ja sairaanhoitopiireittäin.</p>
   </div>
  </div>
