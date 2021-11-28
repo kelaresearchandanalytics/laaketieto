@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Etusivu on laaketieto.kela.fi</title>
+    <title>laaketieto.kela.fi - Kulutustietoa lääkkeistä</title>
     <link>https://laaketieto.kela.fi/</link>
-    <description>Recent content in Etusivu on laaketieto.kela.fi</description>
+    <description>Recent content on laaketieto.kela.fi - Kulutustietoa lääkkeistä</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 09 Nov 2020 19:55:24 +0200</lastBuildDate><atom:link href="https://laaketieto.kela.fi/index.xml" rel="self" type="application/rss+xml" />
