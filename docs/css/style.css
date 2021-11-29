@@ -75,7 +75,7 @@ button.bg-kela:hover {
 }
 
 .container_960 {
-  max-width: 960px; 
+  max-width: 1080px; 
   margin: auto;
 }
 
@@ -401,9 +401,9 @@ background-color: #003580;
   background-color: #003580;
 }
 
-*/
 
-@media (max-width: 767px){
+
+@media (max-width: 960px){
 
   .navbar-nav .open .dropdown-menu>li>a {
       color: black !important;
@@ -413,3 +413,4 @@ background-color: #003580;
       color: white !important;
   }
 }
+*/
