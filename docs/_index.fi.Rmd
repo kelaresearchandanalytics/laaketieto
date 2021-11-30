@@ -42,8 +42,7 @@ plot(cars)
 
 <h2 class = "yellow-line-3" id = "raportit-ja-julkaisut">Raportit ja julkaisut</h2>
 
-- [Kaikki Kelan lääkkeisiin liittyvät raportit ja tutkimusjulkaisut](raportit-ja-julkaisut/)
-
+<div style = "padding: 20px"></div>
 
 ```{r, results="asis", echo = FALSE, message = FALSE, warning=FALSE}
 library(glue)
@@ -77,7 +76,7 @@ pm_dat_tmp %>%
 cat('</div></dl>')
 ```
 
-
+<a href = "raportit-ja-julkaisut/" class = "lead">Lisää julkaisuja <i class="bi-chevron-right"></i></a>
 
 <div style = "padding: 30px"></div>
 
