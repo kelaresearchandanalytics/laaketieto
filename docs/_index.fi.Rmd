@@ -18,7 +18,7 @@ plot(cars)
 
 <div class="row">
  <div class="col-sm-6">
-  <div class="card" style="width: 90%;">
+  <div class="card" style="width: 100%;">
   <a href="https://kelaresearchandanalytics.shinyapps.io/korona_atc_app/" title="Avaa sovellus"><img  class="card-img-top" src="img_app01.PNG" width="100%"></a>
   <div class="card-body">
  <a class = "laake-link" href="https://kelaresearchandanalytics.shinyapps.io/korona_atc_app/" title="Avaa sovellus"><h5 class="card-title">Reseptilääkkeiden ostot ATC-luokittain<i class="bi-chevron-right"></i></h5></a>
@@ -27,7 +27,7 @@ plot(cars)
   </div>
  </div>
  <div class="col-sm-6">
-  <div class="card" style="width: 90%;">
+  <div class="card" style="width: 100%;">
   <a class = "laake-link" href="https://kelaresearchandanalytics.shinyapps.io/kela_fimea_kallis/" title="Avaa sovellus uuteen välilehteen"><img class="card-img-top" src="img_app02.PNG" width="100%"></a>
   <div class="card-body">
   <a class = "laake-link" href="https://kelaresearchandanalytics.shinyapps.io/kela_fimea_kallis/" title="Avaa sovellus"><h5 class="card-title">Avo- ja laitoshoidon lääkekustannusten kasvu ja lasku lääkeaineittain<i class="bi-chevron-right"></i></h5></a>
@@ -49,19 +49,32 @@ plot(cars)
 library(glue)
 library(dplyr)
 pm_dat <- readRDS("../local_data/pm_dat.RDS")
-pm_dat %>% 
+pub_type <- "Tutkimusartikkeli"
+pm_dat_tmp <- pm_dat %>% 
   mutate(item_pub_date = as.Date(item_pub_date)) %>% 
   select(item_title,Year,item_pub_date,authors,scraped_doi) %>% 
   arrange(desc(item_pub_date)) %>% 
-  slice(1:5) %>%
+  mutate(item_pub_date = format(item_pub_date, format="%d.%m.%Y")) 
+cat('<dl class="row"><div class = "col-sm-6">')
+pm_dat_tmp %>% 
+  slice(1:3) %>%
   mutate(html = glue('
-  <dl class="row">
-  <dd class="col-sm-12"><div class = "yellow-line">{item_pub_date} - <i>{item_title}</i></div>
-  <i>{authors}</i><br/>
-  <a class = "laake-link" href="{scraped_doi}">{scraped_doi}<i class="bi-chevron-right"></i></a>
-  </dd></dl>')) %>% 
+  <dd class="col-sm-12  yellow-line">{item_pub_date} - {pub_type}</dd>
+  <dd class="col-sm-12"><a class = "laake-link" href="{scraped_doi}"><i>{item_title}</i><i class="bi-chevron-right"></i></a></dd>
+  <dd class="col-sm-12"><i>{authors}</i></dd>')) %>% 
   pull(html) %>% 
   cat()
+cat('</div>')
+cat('<div class = "col-sm-6">')
+pm_dat_tmp %>% 
+  slice(4:6) %>%
+  mutate(html = glue('
+  <dd class="col-sm-12  yellow-line">{item_pub_date} - {pub_type}</dd>
+  <dd class="col-sm-12"><a class = "laake-link" href="{scraped_doi}"><i>{item_title}</i><i class="bi-chevron-right"></i></a></dd>
+  <dd class="col-sm-12"><i>{authors}</i></dd>')) %>% 
+  pull(html) %>% 
+  cat()
+cat('</div></dl>')
 ```
 
 
