@@ -9,7 +9,7 @@ tags:
   - pill
 ---
 
-```{r, fig.height=14, fig.width=8, echo  = FALSE, message = FALSE, warning = FALSE}
+```{r, fig.height=14, fig.width=8, eval = FALSE, echo  = FALSE, message = FALSE, warning = FALSE}
 muni <- geofi::get_municipalities()
 library(sf)
 plot(muni, max.plot = 1)
