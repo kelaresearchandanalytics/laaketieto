@@ -13,70 +13,28 @@ output:
 ```{r, results="asis", echo = FALSE, message = FALSE, warning=FALSE}
 library(glue)
 library(dplyr)
-pm_dat <- readRDS("../../local_data/pm_dat.RDS")
-pm_dat %>% 
-  mutate(item_pub_date = as.Date(item_pub_date)) %>% 
-  select(item_title,Year,item_pub_date,authors,scraped_doi) %>% 
-  arrange(desc(item_pub_date)) %>% 
-  # slice(1:8) %>% 
-  mutate(html = glue('
-  <dl class="row">
-  <dd class="col-sm-12"><div class = "yellow-line">{item_pub_date} - <i>{item_title}</i></div>
-  <i>{authors}</i><br/>
-  <a class = "laake-link" href="{scraped_doi}">{scraped_doi}<i class="bi-chevron-right"></i></a>
-  </dd></dl>')) %>% 
-  pull(html) %>% 
-  cat()
-```
-
-
-
-
-
-
-```{r, results="asis", echo = FALSE, message = FALSE, warning=FALSE}
 library(glue)
 library(dplyr)
-feed_dat_kela <- readRDS("../../local_data/feed_dat_kela.RDS") %>% 
-  select(date,item_title,item_description,item_link,item_authors)
-feed_dat_fimea <- readRDS("../../local_data/feed_dat_fimea.RDS") %>% 
-  select(date,item_title,item_description,item_link,item_authors)
-
-feed_dat_kela %>% 
-  arrange(desc(date)) %>% 
-  slice(1:8) %>% 
+pm_dat_tmp <- readRDS("../../local_data/publication_data.RDS")
+cat('<dl class="row"><div class = "col-sm-6">')
+pm_dat_tmp %>% 
+  slice(1:30) %>%
   mutate(html = glue('
-  <dl class="row">
-  <dd class="col-sm-12"><div class = "yellow-line">{date}</div>
-  <a class = "laake-link" href="{item_link}">{item_title}<i class="bi-chevron-right"></i></a> 
-  
-  <!--strong>{item_authors}</strong><br/-->
-  </dd></dl>')) %>% 
-  pull(html) -> feed_lines_kela
-
-feed_dat_fimea %>% 
-  arrange(desc(date)) %>% 
-  slice(1:8) %>% 
+  <dd class="col-sm-12  yellow-line">{date} - {type}</dd>
+  <dd class="col-sm-12"><a class = "laake-link" href="{link}"><i>{title}</i><i class="bi-chevron-right"></i></a></dd>
+  <dd class="col-sm-12"><i>{authors}</i></dd>')) %>% 
+  pull(html) %>% 
+  cat()
+cat('</div>')
+cat('<div class = "col-sm-6">')
+pm_dat_tmp %>% 
+  slice(31:60) %>%
   mutate(html = glue('
-  <dl class="row">
-  <dd class="col-sm-12"><div class = "yellow-line">{date}</div>
-  <a class = "laake-link" href="{item_link}">{item_title}<i class="bi-chevron-right"></i></a>
-  <!--strong>{item_authors}</strong><br/-->
-  <!--i>{item_description}<a href="{item_link}"> Lue lisää</a></i-->
-  </dd></dl>')) %>% 
-  pull(html) -> feed_lines_fimea
-
-feed_lines <- c('<dl class="row"><div class = "col-sm-6"><img src = "layout_set_logo.png" height  = "30px"><div style = "padding-top: 10px;"></div><h5>Uutta Kelan tutkimusblogissa</h5>',
-                feed_lines_kela,
-                '<!--a href = "https://tutkimusblogi.kela.fi/avainsanat/laakkeet">Lue lisää Kelan tutkimusblogista</a-->
-                </div>',
-                '<div class = "col-sm-6"><img src = "https://www.fimea.fi/o/fimea-theme/images/logo/fimea-logo.svg" height  = "30px"><div style = "padding-top: 10px;"></div><h5>Ajankohtaista Fimeasta</h5>',
-                feed_lines_fimea,
-                '<!--a href = "https://www.fimea.fi/tietoa_fimeasta/ajankohtaista/uutiset">Lue lisää Fimean kotisivuilta</a-->
-                </div>',
-                '</dl>
-<hr>'
-                )
-
-cat(feed_lines)
+  <dd class="col-sm-12  yellow-line">{date} - {type}</dd>
+  <dd class="col-sm-12"><a class = "laake-link" href="{link}"><i>{title}</i><i class="bi-chevron-right"></i></a></dd>
+  <dd class="col-sm-12"><i>{authors}</i></dd>')) %>% 
+  pull(html) %>% 
+  cat()
+cat('</div></dl>')
 ```
+
