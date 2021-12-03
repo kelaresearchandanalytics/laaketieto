@@ -18,7 +18,7 @@ library(dplyr)
 pm_dat_tmp <- readRDS("../../local_data/publication_data.RDS")
 cat('<dl class="row"><div class = "col-sm-6">')
 pm_dat_tmp %>% 
-  slice(1:30) %>%
+  slice(1:150) %>%
   mutate(html = glue('
   <dd class="col-sm-12  yellow-line">{date} - {type}</dd>
   <dd class="col-sm-12"><a class = "laake-link" href="{link}"><i>{title}</i><i class="bi-chevron-right"></i></a></dd>
@@ -28,7 +28,7 @@ pm_dat_tmp %>%
 cat('</div>')
 cat('<div class = "col-sm-6">')
 pm_dat_tmp %>% 
-  slice(31:60) %>%
+  slice(151:300) %>%
   mutate(html = glue('
   <dd class="col-sm-12  yellow-line">{date} - {type}</dd>
   <dd class="col-sm-12"><a class = "laake-link" href="{link}"><i>{title}</i><i class="bi-chevron-right"></i></a></dd>
