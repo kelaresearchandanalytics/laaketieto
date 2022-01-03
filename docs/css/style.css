@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-body {font-family: 'Lato', sans-serif;}
+body {font-family: 'Lato', sans-serif; padding-top: 0px!important;}
 
 .blog-header, .blog-post, .blog-pagination {
   margin-bottom: 2rem;
@@ -88,7 +88,7 @@ button.bg-kela:hover {
 }
 
 
-/* headroom.js ------------------------ */
+/* headroom.js ------------------------ 
 
 .headroom {
   will-change: transform;
@@ -100,9 +100,9 @@ button.bg-kela:hover {
 .headroom--unpinned {
   transform: translateY(-100%);
 }
+*/
 
-
-/* navbar ----------------------------------------------- */
+/* navbar -----------------------------------------------
 
 .navbar .info {
   float: left;
@@ -145,6 +145,8 @@ button.bg-kela:hover {
   border-radius: 3px;
 }
 
+
+*/
 .navbar-kela .navbar-brand{
   color:rgba(0,0,0,.9)
 }
@@ -173,8 +175,8 @@ button.bg-kela:hover {
 
 
 .navbar-kela{
-/*border-top: 5px solid #FDB916;
-padding-top: 15px;
+/*border-top: 5px solid #FDB916;*/
+/*padding-top: 15px;
 padding-bottom: 15px;*/
 border-bottom: 1px solid #00347f;
 background-color: rgba(255, 255, 255, .9);
