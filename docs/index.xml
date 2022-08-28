@@ -26,11 +26,28 @@
       
       <guid>https://laaketieto.kela.fi/raportit-ja-julkaisut/</guid>
       <description>
-&lt;script src=&#34;https://laaketieto.kela.fi/raportit-ja-julkaisut/index_files/accessible-code-block/empty-anchor.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;dl class=&#34;row&#34;&gt;
 &lt;div class=&#34;col-sm-6&#34;&gt;
+&lt;dd class=&#34;col-sm-12  yellow-line&#34;&gt;
+2022-08-26 - Tutkimusblogi
+&lt;/dd&gt;
+&lt;dd class=&#34;col-sm-12&#34;&gt;
+&lt;a class = &#34;laake-link&#34; href=&#34;https://tutkimusblogi.kela.fi/arkisto/6763&#34;&gt;&lt;i&gt;Lasten antibioottien määrääminen yksityisellä ja julkisella sektorilla – vaikuttiko koronapandemia?&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;/dd&gt;
+&lt;dd class=&#34;col-sm-12&#34;&gt;
+&lt;i&gt;Kari, Heini; Koskinen, Hanna; Rättö, Hanna; Saastamoinen, Leena, K&lt;/i&gt;
+&lt;/dd&gt;
+&lt;dd class=&#34;col-sm-12  yellow-line&#34;&gt;
+2022-07-14 - Tutkimusartikkeli Pubmed
+&lt;/dd&gt;
+&lt;dd class=&#34;col-sm-12&#34;&gt;
+&lt;a class = &#34;laake-link&#34; href=&#34;https://doi.org/10.3389/fphar.2022.943249&#34;&gt;&lt;i&gt;Medicine shortages: Product life cycle phases and characteristics of medicines in short supply-A register study&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;/dd&gt;
+&lt;dd class=&#34;col-sm-12&#34;&gt;
+&lt;i&gt;Sarnola, Kati; Kari, Heini; Koskinen, Hanna&lt;/i&gt;
+&lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12  yellow-line&#34;&gt;
 2022-06-06 - Tutkimusblogi
 &lt;/dd&gt;
@@ -548,19 +565,19 @@
 2020-01-01 - Tutkimusjulkaisu Finna
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/valto.10024_162018&#34;&gt;&lt;i&gt;Lääkehoidon kokonaiskustannukset ja apteekkitalous : Esiselvitys&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/ekk.994243533906250&#34;&gt;&lt;i&gt;Lääkehoidon kokonaiskustannukset ja apteekkitalous : esiselvitys&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;i&gt;Mäklin, Suvi; Laukkonen, Marja-Lisa; Aaltonen, Katri; Heino, Pekka; Koskinen, Hanna; Saastamoinen, Leena; Hyvärinen, Antti; Reinikainen, Leena&lt;/i&gt;
+&lt;i&gt;Mäklin, Suvi; Laukkonen, Marja-Liisa; Aaltonen, Katri; Heino, Pekka; Koskinen, Hanna; Saastamoinen, Leena; Hyvärinen, Antti; Reinikainen, Leena&lt;/i&gt;
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12  yellow-line&#34;&gt;
 2020-01-01 - Tutkimusjulkaisu Finna
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/ekk.994243533906250&#34;&gt;&lt;i&gt;Lääkehoidon kokonaiskustannukset ja apteekkitalous : esiselvitys&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/valto.10024_162018&#34;&gt;&lt;i&gt;Lääkehoidon kokonaiskustannukset ja apteekkitalous : Esiselvitys&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;i&gt;Mäklin, Suvi; Laukkonen, Marja-Liisa; Aaltonen, Katri; Heino, Pekka; Koskinen, Hanna; Saastamoinen, Leena; Hyvärinen, Antti; Reinikainen, Leena&lt;/i&gt;
+&lt;i&gt;Mäklin, Suvi; Laukkonen, Marja-Lisa; Aaltonen, Katri; Heino, Pekka; Koskinen, Hanna; Saastamoinen, Leena; Hyvärinen, Antti; Reinikainen, Leena&lt;/i&gt;
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12  yellow-line&#34;&gt;
 2020-01-01 - Tutkimusjulkaisu Finna
@@ -669,15 +686,6 @@
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
 &lt;i&gt;NA&lt;/i&gt;
-&lt;/dd&gt;
-&lt;dd class=&#34;col-sm-12  yellow-line&#34;&gt;
-2019-09-10 - Tutkimusblogi
-&lt;/dd&gt;
-&lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;a class = &#34;laake-link&#34; href=&#34;https://tutkimusblogi.kela.fi/arkisto/5069&#34;&gt;&lt;i&gt;Olisiko lääkekaton jaksottaminen useampaan osaan ratkaisu korkeisiin omavastuumenoihin?&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
-&lt;/dd&gt;
-&lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;i&gt;Aaltonen, Katri; Heino, Pekka; Soppi, Aarni&lt;/i&gt;
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12  yellow-line&#34;&gt;
 2019-07-27 - Tutkimusartikkeli Pubmed
@@ -1025,25 +1033,7 @@
 2018-01-01 - Tutkimusjulkaisu Finna
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/oy.9916441943906252&#34;&gt;&lt;i&gt;Lääkkeiden saatavuus ja saavutettavuus : tutkimus lääkkeiden saatavuusongelmista Suomessa ja harvinaislääkkeiden saavutettavuudesta Euroopassa&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
-&lt;/dd&gt;
-&lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;i&gt;Sarnola, Kati; Itä-Suomen yliopisto. Terveystieteiden tiedekunta&lt;/i&gt;
-&lt;/dd&gt;
-&lt;dd class=&#34;col-sm-12  yellow-line&#34;&gt;
-2018-01-01 - Tutkimusjulkaisu Finna
-&lt;/dd&gt;
-&lt;dd class=&#34;col-sm-12&#34;&gt;
 &lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/3amk.91368&#34;&gt;&lt;i&gt;Pharmaceutical expenditures, the reference price system and competition in the pharmaceutical market : a register study&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
-&lt;/dd&gt;
-&lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;i&gt;Koskinen, Hanna&lt;/i&gt;
-&lt;/dd&gt;
-&lt;dd class=&#34;col-sm-12  yellow-line&#34;&gt;
-2018-01-01 - Tutkimusjulkaisu Finna
-&lt;/dd&gt;
-&lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/oy.9916196623906252&#34;&gt;&lt;i&gt;Pharmaceutical expenditures, the reference price system and competition in the pharmaceutical market : a register study&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
 &lt;i&gt;Koskinen, Hanna&lt;/i&gt;
@@ -1223,15 +1213,6 @@
 2017-01-01 - Tutkimusjulkaisu Finna
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/oy.9915536643906252&#34;&gt;&lt;i&gt;Effects of opioids on neuronal nicotinic acetylcholine receptors&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
-&lt;/dd&gt;
-&lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;i&gt;Talka, Reeta; Helsingin yliopisto. Farmasian tiedekunta&lt;/i&gt;
-&lt;/dd&gt;
-&lt;dd class=&#34;col-sm-12  yellow-line&#34;&gt;
-2017-01-01 - Tutkimusjulkaisu Finna
-&lt;/dd&gt;
-&lt;dd class=&#34;col-sm-12&#34;&gt;
 &lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/arto.013375868&#34;&gt;&lt;i&gt;Monimuotoinen implementaatiotutkimus&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
@@ -1268,15 +1249,6 @@
 2017-01-01 - Tutkimusjulkaisu Finna
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/3amk.89552&#34;&gt;&lt;i&gt;Affordability of medicines from the pharmaceutical system perspective : comparative analysis of Finland and New Zealand&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
-&lt;/dd&gt;
-&lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;i&gt;Aaltonen, Katri&lt;/i&gt;
-&lt;/dd&gt;
-&lt;dd class=&#34;col-sm-12  yellow-line&#34;&gt;
-2017-01-01 - Tutkimusjulkaisu Finna
-&lt;/dd&gt;
-&lt;dd class=&#34;col-sm-12&#34;&gt;
 &lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/trepo.10024_102244&#34;&gt;&lt;i&gt;Kauran pitkäaikaiskäyttö keliakiassa on turvallista&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
@@ -1286,19 +1258,10 @@
 2017-01-01 - Tutkimusjulkaisu Finna
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/oy.9915548443906252&#34;&gt;&lt;i&gt;Affordability of medicines from the pharmaceutical system perspective : comparative analysis of Finland and New Zealand&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/3amk.89552&#34;&gt;&lt;i&gt;Affordability of medicines from the pharmaceutical system perspective : comparative analysis of Finland and New Zealand&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
 &lt;i&gt;Aaltonen, Katri&lt;/i&gt;
-&lt;/dd&gt;
-&lt;dd class=&#34;col-sm-12  yellow-line&#34;&gt;
-2017-01-01 - Tutkimusjulkaisu Finna
-&lt;/dd&gt;
-&lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/arto.013846326&#34;&gt;&lt;i&gt;Kodeiinilääkkeiden määräämisestä palautetta postitse&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
-&lt;/dd&gt;
-&lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;i&gt;Saastamoinen, Leena K.; Lauhio, Anneli; Helminen, Sari; Välimäki, Jari; Kalso, Eija; Autti-Rämö, Ilona&lt;/i&gt;
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12  yellow-line&#34;&gt;
 2017-01-01 - Tutkimusjulkaisu Finna
@@ -1308,6 +1271,15 @@
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
 &lt;i&gt;Saastamoinen, Leena K.; Autti-Rämö, Ilona; Tuulio-Henriksson, Annamari; Sourander, Andre&lt;/i&gt;
+&lt;/dd&gt;
+&lt;dd class=&#34;col-sm-12  yellow-line&#34;&gt;
+2017-01-01 - Tutkimusjulkaisu Finna
+&lt;/dd&gt;
+&lt;dd class=&#34;col-sm-12&#34;&gt;
+&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/arto.013846326&#34;&gt;&lt;i&gt;Kodeiinilääkkeiden määräämisestä palautetta postitse&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;/dd&gt;
+&lt;dd class=&#34;col-sm-12&#34;&gt;
+&lt;i&gt;Saastamoinen, Leena K.; Lauhio, Anneli; Helminen, Sari; Välimäki, Jari; Kalso, Eija; Autti-Rämö, Ilona&lt;/i&gt;
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12  yellow-line&#34;&gt;
 2017-01-01 - Tutkimusjulkaisu Finna
@@ -1709,15 +1681,6 @@
 2015-01-01 - Tutkimusjulkaisu Finna
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/oy.9914688693906252&#34;&gt;&lt;i&gt;Kelan sairaanhoitokorvaukset tuloryhmittäin : kenelle korvauksia maksetaan ja kuinka paljon?&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
-&lt;/dd&gt;
-&lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;i&gt;Blomgren, Jenni; Aaltonen, Katri; Tervola, Jussi; Virta, Lauri&lt;/i&gt;
-&lt;/dd&gt;
-&lt;dd class=&#34;col-sm-12  yellow-line&#34;&gt;
-2015-01-01 - Tutkimusjulkaisu Finna
-&lt;/dd&gt;
-&lt;dd class=&#34;col-sm-12&#34;&gt;
 &lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/uef.9911032233705966&#34;&gt;&lt;i&gt;Kelan sairaanhoitokorvaukset tuloryhmittäin : kenelle korvauksia maksetaan ja kuinka paljon?&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
@@ -1727,7 +1690,7 @@
 2015-01-01 - Tutkimusjulkaisu Finna
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/arto.013360790&#34;&gt;&lt;i&gt;Outcomes of the deregulation of nicotine replacement therapy products : a review on reported evidence in Finland and other countries&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/arto.013340910&#34;&gt;&lt;i&gt;Outcomes of the deregulation of nicotine replacement therapy products: A review on reported evidence in Finland and other countries&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
 &lt;i&gt;Kurko, Terhi&lt;/i&gt;
@@ -1736,7 +1699,7 @@
 2015-01-01 - Tutkimusjulkaisu Finna
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/arto.013340910&#34;&gt;&lt;i&gt;Outcomes of the deregulation of nicotine replacement therapy products: A review on reported evidence in Finland and other countries&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/arto.013360790&#34;&gt;&lt;i&gt;Outcomes of the deregulation of nicotine replacement therapy products : a review on reported evidence in Finland and other countries&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
 &lt;i&gt;Kurko, Terhi&lt;/i&gt;
@@ -1858,8 +1821,6 @@
 &lt;dd class=&#34;col-sm-12&#34;&gt;
 &lt;i&gt;Saastamoinen, Leena, K.; Koivisto, Pekka&lt;/i&gt;
 &lt;/dd&gt;
-&lt;/div&gt;
-&lt;div class=&#34;col-sm-6&#34;&gt;
 &lt;dd class=&#34;col-sm-12  yellow-line&#34;&gt;
 2014-05-13 - Artikkeli
 &lt;/dd&gt;
@@ -1905,6 +1866,8 @@
 &lt;dd class=&#34;col-sm-12&#34;&gt;
 &lt;i&gt;Jantunen, Juha; Kauppi, Paula; Linna, Miika; Martikainen, Jaana; Mäkelä, Mika; Pelkonen, Anna; Haahtela, Tari&lt;/i&gt;
 &lt;/dd&gt;
+&lt;/div&gt;
+&lt;div class=&#34;col-sm-6&#34;&gt;
 &lt;dd class=&#34;col-sm-12  yellow-line&#34;&gt;
 2014-01-20 - Artikkeli
 &lt;/dd&gt;
@@ -2341,19 +2304,19 @@
 2012-01-01 - Tutkimusjulkaisu Finna
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/trepo.10024_66317&#34;&gt;&lt;i&gt;Lifestyle counselling during pregnancy and offspring weight development until four years of age: follow-up study of a controlled trial&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/trepo.10024_66124&#34;&gt;&lt;i&gt;Study protocol for prevention of falls: A randomized controlled trial of effects of vitamin D and exercise on falls prevention&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;i&gt;Mustila, Taina; Raitanen, Jani; Keskinen, Päivi; Saari, Antti; Luoto, Riitta; Lääketieteen yksikkö - School of Medicine; Terveystieteiden yksikkö - School of Health Sciences; University of Tampere&lt;/i&gt;
+&lt;i&gt;Uusi-Rasi, Kirsti; Kannus, Pekka; Karinkanta, Saija; Pasanen, Matti; Patil, Radhika; Lamberg-Allardt, Christel; Sievänen, Harri; Lääketieteen yksikkö - School of Medicine; University of Tampere&lt;/i&gt;
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12  yellow-line&#34;&gt;
 2012-01-01 - Tutkimusjulkaisu Finna
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/trepo.10024_66124&#34;&gt;&lt;i&gt;Study protocol for prevention of falls: A randomized controlled trial of effects of vitamin D and exercise on falls prevention&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/trepo.10024_66317&#34;&gt;&lt;i&gt;Lifestyle counselling during pregnancy and offspring weight development until four years of age: follow-up study of a controlled trial&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;i&gt;Uusi-Rasi, Kirsti; Kannus, Pekka; Karinkanta, Saija; Pasanen, Matti; Patil, Radhika; Lamberg-Allardt, Christel; Sievänen, Harri; Lääketieteen yksikkö - School of Medicine; University of Tampere&lt;/i&gt;
+&lt;i&gt;Mustila, Taina; Raitanen, Jani; Keskinen, Päivi; Saari, Antti; Luoto, Riitta; Lääketieteen yksikkö - School of Medicine; Terveystieteiden yksikkö - School of Health Sciences; University of Tampere&lt;/i&gt;
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12  yellow-line&#34;&gt;
 2012-01-01 - Tutkimusjulkaisu Finna
@@ -2719,19 +2682,19 @@
 2009-01-01 - Tutkimusjulkaisu Finna
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/arto.013145848&#34;&gt;&lt;i&gt;Suomen lääketilasto 20 vuotta&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/arto.013834448&#34;&gt;&lt;i&gt;Käytännönläheinen menetelmäopas lääketutkimukseen&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;i&gt;Saastamoinen, Leena K.; Voipio, Tinna&lt;/i&gt;
+&lt;i&gt;Saastamoinen, Leena K.&lt;/i&gt;
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12  yellow-line&#34;&gt;
 2009-01-01 - Tutkimusjulkaisu Finna
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/arto.013834448&#34;&gt;&lt;i&gt;Käytännönläheinen menetelmäopas lääketutkimukseen&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/arto.013145848&#34;&gt;&lt;i&gt;Suomen lääketilasto 20 vuotta&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;i&gt;Saastamoinen, Leena K.&lt;/i&gt;
+&lt;i&gt;Saastamoinen, Leena K.; Voipio, Tinna&lt;/i&gt;
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12  yellow-line&#34;&gt;
 2009-01-01 - Tutkimusjulkaisu Finna
@@ -3367,7 +3330,7 @@
 2000-01-01 - Tutkimusjulkaisu Finna
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/diana.5313&#34;&gt;&lt;i&gt;Terveystaloustiede 2001&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/arto.000924192&#34;&gt;&lt;i&gt;Terveystaloustiede 2001&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
 &lt;i&gt;Mikkola, Hennamari&lt;/i&gt;
@@ -3376,7 +3339,7 @@
 2000-01-01 - Tutkimusjulkaisu Finna
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/arto.000924192&#34;&gt;&lt;i&gt;Terveystaloustiede 2001&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/diana.5313&#34;&gt;&lt;i&gt;Terveystaloustiede 2001&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
 &lt;i&gt;Mikkola, Hennamari&lt;/i&gt;
@@ -3385,7 +3348,7 @@
 1999-01-01 - Tutkimusjulkaisu Finna
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/arto.012467442&#34;&gt;&lt;i&gt;Työmarkkina-asema ja elintapojen pysyvyys&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/arto.013834216&#34;&gt;&lt;i&gt;Työmarkkina-asema ja elintapojen pysyvyys&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
 &lt;i&gt;Luoto, Riitta; Helakorpi, Satu; Uutela, Antti&lt;/i&gt;
@@ -3394,7 +3357,7 @@
 1999-01-01 - Tutkimusjulkaisu Finna
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/arto.013834216&#34;&gt;&lt;i&gt;Työmarkkina-asema ja elintapojen pysyvyys&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/arto.012467442&#34;&gt;&lt;i&gt;Työmarkkina-asema ja elintapojen pysyvyys&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
 &lt;i&gt;Luoto, Riitta; Helakorpi, Satu; Uutela, Antti&lt;/i&gt;
@@ -3475,7 +3438,7 @@
 1995-01-01 - Tutkimusjulkaisu Finna
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/arto.013834662&#34;&gt;&lt;i&gt;Missä viipyy gynekologinen epidemiologia? - kohdunpoiston tarve, tarjonta ja merkitys sydän- ja verisuonitaudeille&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/arto.012281326&#34;&gt;&lt;i&gt;Missä viipyy gynekologinen epidemiologia? - kohdunpoiston tarve, tarjonta ja merkitys sydän- ja verisuonitaudeille : pääkirjoitus&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
 &lt;i&gt;Luoto, Riitta&lt;/i&gt;
@@ -3484,7 +3447,7 @@
 1995-01-01 - Tutkimusjulkaisu Finna
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/arto.012281326&#34;&gt;&lt;i&gt;Missä viipyy gynekologinen epidemiologia? - kohdunpoiston tarve, tarjonta ja merkitys sydän- ja verisuonitaudeille : pääkirjoitus&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/arto.013834662&#34;&gt;&lt;i&gt;Missä viipyy gynekologinen epidemiologia? - kohdunpoiston tarve, tarjonta ja merkitys sydän- ja verisuonitaudeille&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
 &lt;i&gt;Luoto, Riitta&lt;/i&gt;
@@ -3502,16 +3465,25 @@
 1995-01-01 - Tutkimusjulkaisu Finna
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/ekk.991877744006250&#34;&gt;&lt;i&gt;Kuntapuntari&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/tilda.47603&#34;&gt;&lt;i&gt;Kuntapuntari&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;i&gt;Tilastokeskus. Lähialuepalvelut&lt;/i&gt;
+&lt;i&gt;Tilastokeskus. Lähialuepalvelut; Tilastokeskus&lt;/i&gt;
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12  yellow-line&#34;&gt;
 1993-01-01 - Tutkimusjulkaisu Finna
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
 &lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/arto.012760820&#34;&gt;&lt;i&gt;Tarvitaanko Suomessa kansanterveystieteellisiä observatorioita?&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;/dd&gt;
+&lt;dd class=&#34;col-sm-12&#34;&gt;
+&lt;i&gt;Luoto, Riitta&lt;/i&gt;
+&lt;/dd&gt;
+&lt;dd class=&#34;col-sm-12  yellow-line&#34;&gt;
+1992-01-01 - Tutkimusjulkaisu Finna
+&lt;/dd&gt;
+&lt;dd class=&#34;col-sm-12&#34;&gt;
+&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/arto.012753566&#34;&gt;&lt;i&gt;Parempi yksi väärä positiivinen kuin kymmenen väärää negatiivista?&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
 &lt;i&gt;Luoto, Riitta&lt;/i&gt;
@@ -3547,15 +3519,6 @@
 1992-01-01 - Tutkimusjulkaisu Finna
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/arto.012753566&#34;&gt;&lt;i&gt;Parempi yksi väärä positiivinen kuin kymmenen väärää negatiivista?&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
-&lt;/dd&gt;
-&lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;i&gt;Luoto, Riitta&lt;/i&gt;
-&lt;/dd&gt;
-&lt;dd class=&#34;col-sm-12  yellow-line&#34;&gt;
-1992-01-01 - Tutkimusjulkaisu Finna
-&lt;/dd&gt;
-&lt;dd class=&#34;col-sm-12&#34;&gt;
 &lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/arto.013834012&#34;&gt;&lt;i&gt;Kohdunpoistot : tarjonnan vaikutus käytäntöön&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
@@ -3574,7 +3537,7 @@
 1991-01-01 - Tutkimusjulkaisu Finna
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/arto.013833893&#34;&gt;&lt;i&gt;Feministit tieteenfilosofian pyörteissä : 5. Pohjoismainen lääketieteellisen naistutkimuksen seminaari 7.-9.2.1991, Oslo&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/arto.012772005&#34;&gt;&lt;i&gt;Feministit tieteenfilosofian pyörteissä : 5. Pohjoismainen lääketieteellisen naistutkimuksen seminaari 7.-9.2.1991, Oslo&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
 &lt;i&gt;Luoto, Riitta; Makkonen, Katri&lt;/i&gt;
@@ -3583,7 +3546,7 @@
 1991-01-01 - Tutkimusjulkaisu Finna
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
-&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/arto.012772005&#34;&gt;&lt;i&gt;Feministit tieteenfilosofian pyörteissä : 5. Pohjoismainen lääketieteellisen naistutkimuksen seminaari 7.-9.2.1991, Oslo&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class = &#34;laake-link&#34; href=&#34;https://www.finna.fi/Record/arto.013833893&#34;&gt;&lt;i&gt;Feministit tieteenfilosofian pyörteissä : 5. Pohjoismainen lääketieteellisen naistutkimuksen seminaari 7.-9.2.1991, Oslo&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
 &lt;i&gt;Luoto, Riitta; Makkonen, Katri&lt;/i&gt;
@@ -3686,6 +3649,60 @@ NA - Tutkimusjulkaisu Finna
 &lt;/dd&gt;
 &lt;dd class=&#34;col-sm-12&#34;&gt;
 &lt;i&gt;Luoto, Riitta; Paronen, Olavi; Vuori, Mika; UKK-instituutti; Tampereen kaupunki. Terveyden ja toimintakyvyn edistämisen tilaajayksikkö&lt;/i&gt;
+&lt;/dd&gt;
+&lt;dd class=&#34;col-sm-12  yellow-line&#34;&gt;
+NA - TRUE
+&lt;/dd&gt;
+&lt;dd class=&#34;col-sm-12&#34;&gt;
+&lt;a class = &#34;laake-link&#34; href=&#34;Epäiletkö lääkkeiden alikäyttöä? - klikkaa Reseptikeskuksen lääkeostotietoihin&#34;&gt;&lt;i&gt;Kujanpää Tero, Palo Sini, Eskelinen Seija, Kastarinen Helena, Haukipuro Kyösti, Leinonen Janne&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;/dd&gt;
+&lt;dd class=&#34;col-sm-12&#34;&gt;
+&lt;i&gt;2022&lt;/i&gt;
+&lt;/dd&gt;
+&lt;dd class=&#34;col-sm-12  yellow-line&#34;&gt;
+NA - TRUE
+&lt;/dd&gt;
+&lt;dd class=&#34;col-sm-12&#34;&gt;
+&lt;a class = &#34;laake-link&#34; href=&#34;Epäiletkö lääkkeiden alikäyttöä? - klikkaa Reseptikeskuksen lääkeostotietoihin&#34;&gt;&lt;i&gt;Kujanpää Tero, Palo Sini, Eskelinen Seija, Kastarinen Helena, Haukipuro Kyösti, Leinonen Janne&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;/dd&gt;
+&lt;dd class=&#34;col-sm-12&#34;&gt;
+&lt;i&gt;2022&lt;/i&gt;
+&lt;/dd&gt;
+&lt;dd class=&#34;col-sm-12  yellow-line&#34;&gt;
+NA - TRUE
+&lt;/dd&gt;
+&lt;dd class=&#34;col-sm-12&#34;&gt;
+&lt;a class = &#34;laake-link&#34; href=&#34;Epäiletkö lääkkeiden alikäyttöä? - klikkaa Reseptikeskuksen lääkeostotietoihin&#34;&gt;&lt;i&gt;Kujanpää Tero, Palo Sini, Eskelinen Seija, Kastarinen Helena, Haukipuro Kyösti, Leinonen Janne&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;/dd&gt;
+&lt;dd class=&#34;col-sm-12&#34;&gt;
+&lt;i&gt;2022&lt;/i&gt;
+&lt;/dd&gt;
+&lt;dd class=&#34;col-sm-12  yellow-line&#34;&gt;
+NA - TRUE
+&lt;/dd&gt;
+&lt;dd class=&#34;col-sm-12&#34;&gt;
+&lt;a class = &#34;laake-link&#34; href=&#34;Epäiletkö lääkkeiden alikäyttöä? - klikkaa Reseptikeskuksen lääkeostotietoihin&#34;&gt;&lt;i&gt;Kujanpää Tero, Palo Sini, Eskelinen Seija, Kastarinen Helena, Haukipuro Kyösti, Leinonen Janne&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;/dd&gt;
+&lt;dd class=&#34;col-sm-12&#34;&gt;
+&lt;i&gt;2022&lt;/i&gt;
+&lt;/dd&gt;
+&lt;dd class=&#34;col-sm-12  yellow-line&#34;&gt;
+NA - TRUE
+&lt;/dd&gt;
+&lt;dd class=&#34;col-sm-12&#34;&gt;
+&lt;a class = &#34;laake-link&#34; href=&#34;Epäiletkö lääkkeiden alikäyttöä? - klikkaa Reseptikeskuksen lääkeostotietoihin&#34;&gt;&lt;i&gt;Kujanpää Tero, Palo Sini, Eskelinen Seija, Kastarinen Helena, Haukipuro Kyösti, Leinonen Janne&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;/dd&gt;
+&lt;dd class=&#34;col-sm-12&#34;&gt;
+&lt;i&gt;2022&lt;/i&gt;
+&lt;/dd&gt;
+&lt;dd class=&#34;col-sm-12  yellow-line&#34;&gt;
+NA - TRUE
+&lt;/dd&gt;
+&lt;dd class=&#34;col-sm-12&#34;&gt;
+&lt;a class = &#34;laake-link&#34; href=&#34;Epäiletkö lääkkeiden alikäyttöä? - klikkaa Reseptikeskuksen lääkeostotietoihin&#34;&gt;&lt;i&gt;Kujanpää Tero, Palo Sini, Eskelinen Seija, Kastarinen Helena, Haukipuro Kyösti, Leinonen Janne&lt;/i&gt;&lt;i class=&#34;bi-chevron-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;/dd&gt;
+&lt;dd class=&#34;col-sm-12&#34;&gt;
+&lt;i&gt;2022&lt;/i&gt;
 &lt;/dd&gt;
 &lt;/div&gt;
 &lt;/dl&gt;
