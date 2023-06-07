@@ -17,7 +17,7 @@ plot(cars)
 <h2 id = "verkkosovellukset" class = "yellow-line-3">Verkkosovellukset</h2>
 
 <div class="row">
- <div class="col-sm-6">
+ <div class="col-sm-4">
   <div class="card" style="width: 100%;">
   <a href="https://kelaresearchandanalytics.shinyapps.io/korona_atc_app/" title="Avaa sovellus"><img  class="card-img-top" src="img_app01.PNG" width="100%"></a>
   <div class="card-body">
@@ -26,7 +26,7 @@ plot(cars)
   </div>
   </div>
  </div>
- <div class="col-sm-6">
+ <div class="col-sm-4">
   <div class="card" style="width: 100%;">
   <a class = "laake-link" href="https://kelaresearchandanalytics.shinyapps.io/kela_fimea_kallis/" title="Avaa sovellus uuteen välilehteen"><img class="card-img-top" src="img_app02.PNG" width="100%"></a>
   <div class="card-body">
@@ -35,6 +35,17 @@ plot(cars)
   </div>
  </div>
 </div>
+
+ <div class="col-sm-4">
+  <div class="card" style="width: 100%;">
+  <a class = "laake-link" href="https://hva-tietopaketti.kela.fi/" title="Avaa sovellus uuteen välilehteen"><img class="card-img-top" src="https://hva-tietopaketti.kela.fi/img/hva_preview.png" width="100%"></a>
+  <div class="card-body">
+  <a class = "laake-link" href="https://hva-tietopaketti.kela.fi/" title="Avaa sovellus"><h5 class="card-title">Hyvinvointialueiden tietopaketti<i class="bi-chevron-right"></i></h5></a>
+  <p class="card-text">Kelan etuuksien tilastotietoja hyvinvointialueittain</p>
+  </div>
+ </div>
+</div>
+
 </div>
 
 <div style = "padding: 20px"></div>
